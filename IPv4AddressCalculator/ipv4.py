@@ -2,7 +2,6 @@ ip=list(map(int,input("Enter ip :").split(".")))
 su=list(map(int,input("Enter subnet :").split(".")))
 net=[] #Network ip
 broad=[] #Broadcast ip
-first=[] #First usable
 las=[] #Last usable
 prefix=0 #Network prefix
 hosts=1 #Number of host address
