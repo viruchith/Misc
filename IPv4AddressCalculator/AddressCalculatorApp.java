@@ -70,12 +70,13 @@ class Calculation{
 class AppElements{
 static JLabel l1,l2,l3,l4,l5,l6,l7,l8,l9;
 static JTextField t1,t2,t3,t4,t5,t6,t7,t8;
-static JButton btn;
+static JButton btn1,btn2;
 static String[] s1,s2;
 AppElements() {
     JFrame jf = new JFrame("IPv4 Address Calculator");
 
-    btn=new JButton("calculate");
+    btn1=new JButton("calculate");
+    btn2=new JButton("clear");
    
     l1 = new JLabel("Network :");
     l2 = new JLabel("Prefix:");
@@ -118,7 +119,8 @@ AppElements() {
     l9.setBounds(30, 300,200,25);
     t8.setBounds(150, 300, 120, 25);
 
-    btn.setBounds(130, 350, 100, 30);
+    btn1.setBounds(180, 350, 100, 30);
+    btn2.setBounds(80,350,80,30);
 
     jf.add(l1);
     jf.add(t1);
@@ -137,14 +139,15 @@ AppElements() {
     jf.add(t7);
     jf.add(l9);
     jf.add(t8);
-    jf.add(btn);
+    jf.add(btn1);
+    jf.add(btn2);
 
     jf.setSize(350, 420);
     jf.setLayout(null);
     jf.setVisible(true);
 
-    btn.addActionListener(new ActionListener() {
-        public void actionPerformed(ActionEvent e) {
+    btn1.addActionListener(new ActionListener() {
+        public void actionPerformed(ActionEvent ae) {
             s1=(t7.getText()).split("\\.");
             s2=(t8.getText()).split("\\.");
             Calculation.stringToInt(s1, Calculation.ipv4);
@@ -159,6 +162,18 @@ AppElements() {
             t4.setText(Integer.toString(Calculation.broad[0])+"."+Integer.toString(Calculation.broad[1])+"."+Integer.toString(Calculation.broad[2])+"."+Integer.toString((Calculation.broad[3])-1));
             t5.setText(Calculation.inttoString(Calculation.broad));
             t6.setText(Integer.toString((Calculation.hosts)-2));
+        }
+    });
+btn2.addActionListener(new ActionListener() {
+        public void actionPerformed(ActionEvent ae) {
+            t1.setText("0.0.0.0");
+            t2.setText("00");
+            t3.setText("0.0.0.0");
+            t4.setText("0.0.0.0");
+            t5.setText("0.0.0.0");
+            t6.setText("0.0.0.0");
+            t7.setText("0.0.0.0");
+            t8.setText("0.0.0.0");
         }
     });
 }
