@@ -29,158 +29,128 @@ public class Validator{
 	
 	private String EMAIL_REGEX = "^[\\w-\\+]+(\\.[\\w]+)*@[\\w-]+(\\.[\\w]+)*(\\.[a-z]{2,})$";
 	
-	private String PASSWORD_REGEX = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&-+=()])(?=\\S+$).{8,20}$";
 	
-	String validateEmail(String email){
-		
-		String message = "";
-		
+	protected String validateEmail(String email){
+				
 		Pattern email_pattern = Pattern.compile(EMAIL_REGEX);
 		Matcher email_matcher = email_pattern.matcher(email);
 				
 		if(email.isEmpty())
 		{
-			message="Email cannot be empty" ;
+			return "Email cannot be empty" ;
 			
 			
 			}else if(email_matcher.matches()){
 				
-				message = "valid";
+				return "valid";
 				
 				}else{
 					
-					message = "Invalid e-mail";
+					return "Invalid e-mail";
 					
 					
 					}
-					
-					
-			return message;
-		
+							
 		
 		}
 		
 		
 		
-		String validatePassword(String password){
-			
-
-			
-			String message = "";
-			
-			Pattern password_pattern = Pattern.compile(PASSWORD_REGEX);
-			Matcher password_matcher = password_pattern.matcher(password);
-			
+		protected String validatePassword(String password){
+		
 			if(password.isEmpty()){
 				
-				message="Password cannot be Empty !";
-				}else if(password_matcher.matches()){
-					message="valid";
+				return "Password cannot be Empty !";
+				}else if(password.length()>8){
+					return "valid";
 					
 					
 					}
 					else{
 						
-						message="Invalid Password Format !";
+						return "Invalid Password Format !";
 						
 						}
 			
-			return message;
 			
 			}
 			
 			
 			
-			String validateName(String name){
-				
-				String message = "";
-				
+			protected String validateName(String name){
+								
 				if(name.isEmpty()){
-					message = "Cannot be empty !";
+					return "Cannot be empty !";
 					
 					}else if(name.matches("[A-Z][a-z]*")||name.matches("[a-z]*")){
 						
-						message = "valid";
+						return "valid";
 						
 						}else{
 							
-							message="can contain only alphabets" ; 
+							return "can contain only alphabets" ; 
 							
-							}
-							
-							
-							return message ;
-				
+							}				
 				
 				}
 				
 				
 				
-				String validateMobileNumber(String mob){
-					
-					String message = "";
-					
+				protected String validateMobileNumber(String mob){
+										
 					if(mob.isEmpty()){
-						message = "cannot be left empty !";
+						return "cannot be left empty !";
 						
 						}else if(mob.matches("[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]")){
 							
-							message = "valid";
+							return "valid";
 							
 							}else{
 								
-								message = "Invalid format !" ;
+								return "Invalid format !" ;
 								
-								}
-					
-					return message;
-					
+								}					
 					
 					}
 					
 				
-				String validateFieldByRangeLength(int minLength,int maxLength,String value){
+				protected String validateFieldByRangeLength(int minLength,int maxLength,String value){
 					
-					String message = "";
 					
 					if(value.isEmpty()){
 						
-						message = "cannot be empty !";
+						return "cannot be empty !";
 						
 						}else if(value.length()>=minLength && value.length()<=maxLength ){
 							
-							message = "valid";
+							return "valid";
 							
 							}else{
 								
-								message = "Must be "+Integer.toString(minLength)+" to  "+Integer.toString(maxLength)+" characters in length !" ;
+								return "Must be "+Integer.toString(minLength)+" to  "+Integer.toString(maxLength)+" characters in length !" ;
 								
 								
 								}
 								
-								return message ; 
 					
 					}
 					
-					String validateFieldByLength(int length,String value){
+					protected String validateFieldByLength(int length,String value){
 						
-						String message = "" ; 
 						
 						if(value.isEmpty()){
 							
-							message = "cannot be empty !" ; 
+							return "cannot be empty !" ; 
 							
 							}else if(value.length()<=length){
 								
-								message = "valid"; 
+								return "valid"; 
 								
 								}else{
-										message="Must be "+Integer.toString(length)+" characters in length !" ;
+										return "Must be "+Integer.toString(length)+" characters in length !" ;
 									
 									}
-									
-									return message ;
-					
+														
 						}
 		
 	
