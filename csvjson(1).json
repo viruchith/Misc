@@ -1,0 +1,1162 @@
+[
+  {
+    "question": "The logic operations are implemented using _______ circuits.",
+    "a": "Bridge",
+    "b": "Logical",
+    "c": "Combinatorial",
+    "d": "Gate",
+    "ans": "c"
+  },
+  {
+    "question": "The carry generation function: ci + 1 = yici + xici + xiyi, is implemented in ____________",
+    "a": "Half adders",
+    "b": "Full adders",
+    "c": "Ripple adders",
+    "d": "Fast adders",
+    "ans": "b"
+  },
+  {
+    "question": "Which option is true regarding the carry in the ripple adders?",
+    "a": "Are generated at the beginning only",
+    "b": "Must travel through the configuration",
+    "c": "Is generated at the end of each operation",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "In full adders the sum circuit is implemented using ________",
+    "a": "And & or gates",
+    "b": "NAND gate",
+    "c": "XOR",
+    "d": "XNOR",
+    "ans": "c"
+  },
+  {
+    "question": "The usual implementation of the carry circuit involves _________",
+    "a": "And & or gates",
+    "b": "XOR",
+    "c": "NAND",
+    "d": "XNOR",
+    "ans": "b"
+  },
+  {
+    "question": "In a normal adder circuit, the delay obtained in a generation of the output is _______",
+    "a": "2n + 2",
+    "b": "2n",
+    "c": "n + 2",
+    "d": "None of the mentioned",
+    "ans": "a"
+  },
+  {
+    "question": "The delay reduced to in the carry look ahead adder is __________",
+    "a": 5,
+    "b": 8,
+    "c": 10,
+    "d": "2n",
+    "ans": "a"
+  },
+  {
+    "question": "We make use of ______ circuits to implement multiplication.",
+    "a": "Flip flops",
+    "b": "Combinatorial",
+    "c": "Fast adders",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "The multiplier is stored in ______\na)",
+    "a": "PC Register",
+    "b": "Shift register",
+    "c": "Cache",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "The ______ is used to coordinate the operation of the multiplier.\na)",
+    "a": "Controller",
+    "b": "Coordinator",
+    "c": "Control sequencer",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "The multiplicand and the control signals are passed through to the n-bit adder via _____\na)",
+    "a": "MUX",
+    "b": "DEMUX",
+    "c": "Encoder",
+    "d": "Decoder",
+    "ans": "a"
+  },
+  {
+    "question": "The method used to reduce the maximum number of summands by half is _______\na)",
+    "a": "Fast multiplication",
+    "b": "Bit-pair recording",
+    "c": "Quick multiplication",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "The decimal numbers represented in the computer are called as floating point numbers, as the decimal point floats through the number",
+    "a": "True",
+    "b": "False",
+    "c": "",
+    "d": "",
+    "ans": "a"
+  },
+  {
+    "question": "The numbers written to the power of 10 in the representation of decimal numbers are called as _____",
+    "a": "Height factors",
+    "b": "Size factors",
+    "c": "Scale factors",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "If the decimal point is placed to the right of the first significant digit, then the number is called ________",
+    "a": "Orthogonal",
+    "b": "Normalized",
+    "c": "Determinate",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": ". ________ constitute the representation of the floating number.",
+    "a": "Sign",
+    "b": "Significant digits",
+    "c": "Scale factor",
+    "d": "All of the mentioned",
+    "ans": "d"
+  },
+  {
+    "question": "The 32 bit representation of the decimal number is called as ___________",
+    "a": "Double-precision",
+    "b": "Single-precision",
+    "c": "Extended format",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "In 32 bit representation the scale factor as a range of ________",
+    "a": "-128 to 127",
+    "b": "-256 to 255",
+    "c": "0 to 255",
+    "d": "None of the mentioned",
+    "ans": "a"
+  },
+  {
+    "question": "In double precision format, the size of the mantissa is ______",
+    "a": "32 bit",
+    "b": "52 bit",
+    "c": "64 bit",
+    "d": "72 bit",
+    "ans": "b"
+  },
+  {
+    "question": "Which method/s of representation of numbers occupies a large amount of memory than others?",
+    "a": "Sign-magnitude",
+    "b": "1’s complement",
+    "c": "2’s complement",
+    "d": "1’s & 2’s compliment",
+    "ans": "a"
+  },
+  {
+    "question": "Which representation is most efficient to perform arithmetic operations on the numbers?",
+    "a": "Sign-magnitude",
+    "b": "1’s complement",
+    "c": "2’S complement",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "The processor keeps track of the results of its operations using flags called ________",
+    "a": "Conditional code flags",
+    "b": "Test output flags",
+    "c": "Type flags",
+    "d": "None of the mentioned",
+    "ans": "a"
+  },
+  {
+    "question": "Which operation  can be acconmplished  by adding the complement of the subtrahend to the minuend?",
+    "a": "Subtraction",
+    "b": "Division",
+    "c": "Addition",
+    "d": "Multiplication",
+    "ans": "a"
+  },
+  {
+    "question": "For the addition of large integers, most of the systems make use of ______",
+    "a": "Fast adders",
+    "b": "Full adders",
+    "c": "Carry look-ahead adders",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "In which shift is used to divide a signed number by two",
+    "a": "Logic right shift",
+    "b": "Arithemetic right shift",
+    "c": "Logic leftshift",
+    "d": "Arithemetic left shift",
+    "ans": "b"
+  },
+  {
+    "question": "The first part of the floating point represents",
+    "a": "Mantisssa",
+    "b": "Exponent",
+    "c": "octal",
+    "d": "Binomial",
+    "ans": "a"
+  },
+  {
+    "question": "Which number is said to be normalized if the MSB position of mantissa contains non zero digit",
+    "a": "Binary point number",
+    "b": "Floating point number",
+    "c": "Mantissa point number",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "n bits in operation code imply that there are ___________ possible distinct operators",
+    "a": "n",
+    "b": "2n",
+    "c": "n/2",
+    "d": "n2",
+    "ans": "b"
+  },
+  {
+    "question": "Say True or False (i)Arithmetic operations with fixed point numbers take longer time for execution as compared to with floating point numbers. \n(ii) An arithmetic shift left multiplies a signed binary number by 2.",
+    "a": "(i) True.  (ii) False.",
+    "b": "(i) False.  (ii) True.",
+    "c": "(i) True.  (ii) True.",
+    "d": "(i) False.  (ii) False.",
+    "ans": "a"
+  },
+  {
+    "question": "The final addition sum of the numbers, 0110 & 0110 is ____________",
+    "a": 1101,
+    "b": 1111,
+    "c": 1001,
+    "d": 1010,
+    "ans": "a"
+  },
+  {
+    "question": "The product of 1101 & 1011 is ______",
+    "a": 10001111,
+    "b": 10101010,
+    "c": 11110000,
+    "d": 11001100,
+    "ans": "a"
+  },
+  {
+    "question": "The product of -13 & 11 is ______________",
+    "a": 1100110011,
+    "b": 1101110001,
+    "c": 1010101010,
+    "d": 1111111000,
+    "ans": "b"
+  },
+  {
+    "question": "The normalized representation of 0.0010110 * 2 9 is _______",
+    "a": "0 10001000 0010110",
+    "b": "0 10000101 0110",
+    "c": "0 10101010 1110",
+    "d": "0 11110100 11100",
+    "ans": "b"
+  },
+  {
+    "question": "In IEEE 32-bit representations, the mantissa of the fraction is said to occupy ______ bits.",
+    "a": 24,
+    "b": 23,
+    "c": 20,
+    "d": 16,
+    "ans": "b"
+  },
+  {
+    "question": "When we perform subtraction on -7 and 1 the answer in 2’s complement form is _________",
+    "a": 1010,
+    "b": 1110,
+    "c": "0110",
+    "d": 1000,
+    "ans": "d"
+  },
+  {
+    "question": "When we perform subtraction on -7 and -5 the answer in 2’s complement form is ________",
+    "a": 11110,
+    "b": 1110,
+    "c": 1010,
+    "d": "d) 0010",
+    "ans": "b"
+  },
+  {
+    "question": "In signed-magnitude binary division, if the dividend is (11100) 2 and divisor is (10011) 2 then the result is",
+    "a": "(00100) 2",
+    "b": "(10100) 2",
+    "c": "(11001) 2",
+    "d": "(01100) 2",
+    "ans": "b"
+  },
+  {
+    "question": "The multiplicand register & multiplier register of a hardware circuit implementing booth's algorithm have (11101) & (1100). The result shall be",
+    "a": "(812) 10",
+    "b": "(-12) 10",
+    "c": "(12) 10",
+    "d": "(-812) 10",
+    "ans": "a"
+  },
+  {
+    "question": "A floating point number that has a O in the MSB of mantissa is said to have",
+    "a": "Overflow",
+    "b": "Underflow",
+    "c": "Important number",
+    "d": "Undefined",
+    "ans": "b"
+  },
+  {
+    "question": "When 1101 is used to divide 100010010 the remainder is ______",
+    "a": 101,
+    "b": 11,
+    "c": 0,
+    "d": 1,
+    "ans": "d"
+  },
+  {
+    "question": "Which algorithm uses repeated addition of two predetermined values of A and S to product P and it performs rightward aithemetic shift on P",
+    "a": "Booth's algorithm",
+    "b": "Usual algorithm",
+    "c": "Multiplication algorithm",
+    "d": "None of these",
+    "ans": "a"
+  },
+  {
+    "question": "70 can be represented in a signed magnitude format and in a 1’s complement format as",
+    "a": "111011 & 100100",
+    "b": "100100 & 111011",
+    "c": "011011 & 100100",
+    "d": "100100 & 011011",
+    "ans": "a"
+  },
+  {
+    "question": "Perform signed multiplication  of the given 2's complement number using Booth's algorithm   A=010111 B=110110",
+    "a": 111100011001,
+    "b": 111100011010,
+    "c": 111111111010,
+    "d": 10100011010,
+    "ans": "b"
+  },
+  {
+    "question": "Represent the decimal values for 26 as signed 7 bit numbers in the folloeing binary formats: (a) Sign and Magnitude  (b) 1's complement  (c) 2's complement",
+    "a": "(a) 00111010  (b)0011010  (c) 1101101",
+    "b": "(a) 1111010  (b)1111010  (c) 1101101",
+    "c": "(a) 00111011  (b)0011011 (c) 1101110",
+    "d": "(a) 00001010  (b)0000010  (c) 1100001",
+    "ans": "a"
+  },
+  {
+    "question": "Convert the pairs of decimal numbers : -14 and 11  to 5 bit 2's complement numbers then add them and check the overflow condition",
+    "a": "111101 overflow",
+    "b": "00101 no overflow",
+    "c": "11101 no overflow",
+    "d": "000111 overflow",
+    "ans": "c"
+  },
+  {
+    "question": "The logic operations are implemented using _______ circuits.",
+    "a": "Bridge",
+    "b": "Logical",
+    "c": "Combinatorial",
+    "d": "Gate",
+    "ans": "c"
+  },
+  {
+    "question": "The carry generation function: ci + 1 = yici + xici + xiyi, is implemented in ____________",
+    "a": "Half adders",
+    "b": "Full adders",
+    "c": "Ripple adders",
+    "d": "Fast adders",
+    "ans": "b"
+  },
+  {
+    "question": "Which option is true regarding the carry in the ripple adders?",
+    "a": "Are generated at the beginning only",
+    "b": "Must travel through the configuration",
+    "c": "Is generated at the end of each operation",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "In full adders the sum circuit is implemented using ________",
+    "a": "And & or gates",
+    "b": "NAND gate",
+    "c": "XOR",
+    "d": "XNOR",
+    "ans": "c"
+  },
+  {
+    "question": "The usual implementation of the carry circuit involves _________",
+    "a": "And & or gates",
+    "b": "XOR",
+    "c": "NAND",
+    "d": "XNOR",
+    "ans": "b"
+  },
+  {
+    "question": "In a normal adder circuit, the delay obtained in a generation of the output is _______",
+    "a": "2n + 2",
+    "b": "2n",
+    "c": "n + 2",
+    "d": "None of the mentioned",
+    "ans": "a"
+  },
+  {
+    "question": "The delay reduced to in the carry look ahead adder is __________",
+    "a": 5,
+    "b": 8,
+    "c": 10,
+    "d": "2n",
+    "ans": "a"
+  },
+  {
+    "question": "We make use of ______ circuits to implement multiplication.",
+    "a": "Flip flops",
+    "b": "Combinatorial",
+    "c": "Fast adders",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "The multiplier is stored in ______\na)",
+    "a": "PC Register",
+    "b": "Shift register",
+    "c": "Cache",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "The ______ is used to coordinate the operation of the multiplier.\na)",
+    "a": "Controller",
+    "b": "Coordinator",
+    "c": "Control sequencer",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "The multiplicand and the control signals are passed through to the n-bit adder via _____\na)",
+    "a": "MUX",
+    "b": "DEMUX",
+    "c": "Encoder",
+    "d": "Decoder",
+    "ans": "a"
+  },
+  {
+    "question": "The method used to reduce the maximum number of summands by half is _______\na)",
+    "a": "Fast multiplication",
+    "b": "Bit-pair recording",
+    "c": "Quick multiplication",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "The decimal numbers represented in the computer are called as floating point numbers, as the decimal point floats through the number",
+    "a": "True",
+    "b": "False",
+    "c": "",
+    "d": "",
+    "ans": "a"
+  },
+  {
+    "question": "The numbers written to the power of 10 in the representation of decimal numbers are called as _____",
+    "a": "Height factors",
+    "b": "Size factors",
+    "c": "Scale factors",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "If the decimal point is placed to the right of the first significant digit, then the number is called ________",
+    "a": "Orthogonal",
+    "b": "Normalized",
+    "c": "Determinate",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": ". ________ constitute the representation of the floating number.",
+    "a": "Sign",
+    "b": "Significant digits",
+    "c": "Scale factor",
+    "d": "All of the mentioned",
+    "ans": "d"
+  },
+  {
+    "question": "The 32 bit representation of the decimal number is called as ___________",
+    "a": "Double-precision",
+    "b": "Single-precision",
+    "c": "Extended format",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "In 32 bit representation the scale factor as a range of ________",
+    "a": "-128 to 127",
+    "b": "-256 to 255",
+    "c": "0 to 255",
+    "d": "None of the mentioned",
+    "ans": "a"
+  },
+  {
+    "question": "In double precision format, the size of the mantissa is ______",
+    "a": "32 bit",
+    "b": "52 bit",
+    "c": "64 bit",
+    "d": "72 bit",
+    "ans": "b"
+  },
+  {
+    "question": "Which method/s of representation of numbers occupies a large amount of memory than others?",
+    "a": "Sign-magnitude",
+    "b": "1’s complement",
+    "c": "2’s complement",
+    "d": "1’s & 2’s compliment",
+    "ans": "a"
+  },
+  {
+    "question": "Which representation is most efficient to perform arithmetic operations on the numbers?",
+    "a": "Sign-magnitude",
+    "b": "1’s complement",
+    "c": "2’S complement",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "The processor keeps track of the results of its operations using flags called ________",
+    "a": "Conditional code flags",
+    "b": "Test output flags",
+    "c": "Type flags",
+    "d": "None of the mentioned",
+    "ans": "a"
+  },
+  {
+    "question": "Which operation  can be acconmplished  by adding the complement of the subtrahend to the minuend?",
+    "a": "Subtraction",
+    "b": "Division",
+    "c": "Addition",
+    "d": "Multiplication",
+    "ans": "a"
+  },
+  {
+    "question": "For the addition of large integers, most of the systems make use of ______",
+    "a": "Fast adders",
+    "b": "Full adders",
+    "c": "Carry look-ahead adders",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "In which shift is used to divide a signed number by two",
+    "a": "Logic right shift",
+    "b": "Arithemetic right shift",
+    "c": "Logic leftshift",
+    "d": "Arithemetic left shift",
+    "ans": "b"
+  },
+  {
+    "question": "The first part of the floating point represents",
+    "a": "Mantisssa",
+    "b": "Exponent",
+    "c": "octal",
+    "d": "Binomial",
+    "ans": "a"
+  },
+  {
+    "question": "Which number is said to be normalized if the MSB position of mantissa contains non zero digit",
+    "a": "Binary point number",
+    "b": "Floating point number",
+    "c": "Mantissa point number",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "n bits in operation code imply that there are ___________ possible distinct operators",
+    "a": "n",
+    "b": "2n",
+    "c": "n/2",
+    "d": "n2",
+    "ans": "b"
+  },
+  {
+    "question": "Say True or False (i)Arithmetic operations with fixed point numbers take longer time for execution as compared to with floating point numbers. \n(ii) An arithmetic shift left multiplies a signed binary number by 2.",
+    "a": "(i) True.  (ii) False.",
+    "b": "(i) False.  (ii) True.",
+    "c": "(i) True.  (ii) True.",
+    "d": "(i) False.  (ii) False.",
+    "ans": "a"
+  },
+  {
+    "question": "The final addition sum of the numbers, 0110 & 0110 is ____________",
+    "a": 1101,
+    "b": 1111,
+    "c": 1001,
+    "d": 1010,
+    "ans": "a"
+  },
+  {
+    "question": "The product of 1101 & 1011 is ______",
+    "a": 10001111,
+    "b": 10101010,
+    "c": 11110000,
+    "d": 11001100,
+    "ans": "a"
+  },
+  {
+    "question": "The product of -13 & 11 is ______________",
+    "a": 1100110011,
+    "b": 1101110001,
+    "c": 1010101010,
+    "d": 1111111000,
+    "ans": "b"
+  },
+  {
+    "question": "The normalized representation of 0.0010110 * 2 9 is _______",
+    "a": "0 10001000 0010110",
+    "b": "0 10000101 0110",
+    "c": "0 10101010 1110",
+    "d": "0 11110100 11100",
+    "ans": "b"
+  },
+  {
+    "question": "In IEEE 32-bit representations, the mantissa of the fraction is said to occupy ______ bits.",
+    "a": 24,
+    "b": 23,
+    "c": 20,
+    "d": 16,
+    "ans": "b"
+  },
+  {
+    "question": "When we perform subtraction on -7 and 1 the answer in 2’s complement form is _________",
+    "a": 1010,
+    "b": 1110,
+    "c": "0110",
+    "d": 1000,
+    "ans": "d"
+  },
+  {
+    "question": "When we perform subtraction on -7 and -5 the answer in 2’s complement form is ________",
+    "a": 11110,
+    "b": 1110,
+    "c": 1010,
+    "d": "d) 0010",
+    "ans": "b"
+  },
+  {
+    "question": "In signed-magnitude binary division, if the dividend is (11100) 2 and divisor is (10011) 2 then the result is",
+    "a": "(00100) 2",
+    "b": "(10100) 2",
+    "c": "(11001) 2",
+    "d": "(01100) 2",
+    "ans": "b"
+  },
+  {
+    "question": "The multiplicand register & multiplier register of a hardware circuit implementing booth's algorithm have (11101) & (1100). The result shall be",
+    "a": "(812) 10",
+    "b": "(-12) 10",
+    "c": "(12) 10",
+    "d": "(-812) 10",
+    "ans": "a"
+  },
+  {
+    "question": "A floating point number that has a O in the MSB of mantissa is said to have",
+    "a": "Overflow",
+    "b": "Underflow",
+    "c": "Important number",
+    "d": "Undefined",
+    "ans": "b"
+  },
+  {
+    "question": "When 1101 is used to divide 100010010 the remainder is ______",
+    "a": 101,
+    "b": 11,
+    "c": 0,
+    "d": 1,
+    "ans": "d"
+  },
+  {
+    "question": "Which algorithm uses repeated addition of two predetermined values of A and S to product P and it performs rightward aithemetic shift on P",
+    "a": "Booth's algorithm",
+    "b": "Usual algorithm",
+    "c": "Multiplication algorithm",
+    "d": "None of these",
+    "ans": "a"
+  },
+  {
+    "question": "70 can be represented in a signed magnitude format and in a 1’s complement format as",
+    "a": "111011 & 100100",
+    "b": "100100 & 111011",
+    "c": "011011 & 100100",
+    "d": "100100 & 011011",
+    "ans": "a"
+  },
+  {
+    "question": "Perform signed multiplication  of the given 2's complement number using Booth's algorithm   A=010111 B=110110",
+    "a": 111100011001,
+    "b": 111100011010,
+    "c": 111111111010,
+    "d": 10100011010,
+    "ans": "b"
+  },
+  {
+    "question": "Represent the decimal values for 26 as signed 7 bit numbers in the folloeing binary formats: (a) Sign and Magnitude  (b) 1's complement  (c) 2's complement",
+    "a": "(a) 00111010  (b)0011010  (c) 1101101",
+    "b": "(a) 1111010  (b)1111010  (c) 1101101",
+    "c": "(a) 00111011  (b)0011011 (c) 1101110",
+    "d": "(a) 00001010  (b)0000010  (c) 1100001",
+    "ans": "a"
+  },
+  {
+    "question": "Convert the pairs of decimal numbers : -14 and 11  to 5 bit 2's complement numbers then add them and check the overflow condition",
+    "a": "111101 overflow",
+    "b": "00101 no overflow",
+    "c": "11101 no overflow",
+    "d": "000111 overflow",
+    "ans": "c"
+  },
+  {
+    "question": "The objective of Pipelining is to achieve",
+    "a": "Sequential execution of instructions",
+    "b": "Parallel execution of instructions",
+    "c": "Slow down processor functionality",
+    "d": "Decreased efficiency and throughput",
+    "ans": "b"
+  },
+  {
+    "question": "Each phase of execution is carried out parallely in",
+    "a": "Scalar processing",
+    "b": "Sequential execution",
+    "c": "Pipelined execution",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "When the same resource is required by more than one pipleined instruction, then the situation is called",
+    "a": "Data Hazard",
+    "b": "Structural Hazard",
+    "c": "Instruction hazard",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "When the same data is required by more than one pipleined instruction, then the situation is called",
+    "a": "Data Hazard",
+    "b": "Structural Hazard",
+    "c": "Instruction hazard",
+    "d": "None of the mentioned",
+    "ans": "a"
+  },
+  {
+    "question": "When the next instruction to be executed is not avialable in the pipleine, then the situation is called",
+    "a": "Data Hazard",
+    "b": "Structural Hazard",
+    "c": "Instruction hazard",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "Instruction hazards generally occur in",
+    "a": "Conditional branch instructions",
+    "b": "Unconditional branch instruction",
+    "c": "Loop instructions",
+    "d": "All the mentioned instructions",
+    "ans": "d"
+  },
+  {
+    "question": "A pipeline stall can be replaced by a",
+    "a": "NOP instruction",
+    "b": "Branch instruction",
+    "c": "Arithmetic instruction",
+    "d": "None of the mentioned",
+    "ans": "a"
+  },
+  {
+    "question": "Data hazards may most probably occur in",
+    "a": "Arithmetic instructions",
+    "b": "Load instructions",
+    "c": "Store instructions",
+    "d": "All the mentioned instructions",
+    "ans": "a"
+  },
+  {
+    "question": "An early detection and avoidance can be carried out in",
+    "a": "Data Hazard",
+    "b": "Structural Hazard",
+    "c": "Instruction hazard",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "To avoid structural hazard,",
+    "a": "Additional hardware can be incorporated while hardware design",
+    "b": "Unwanted hardware can be removed from the system",
+    "c": "Instructions can be preprocessed",
+    "d": "Data can be forwarded",
+    "ans": "a"
+  },
+  {
+    "question": "One of the techniques to handle instruction hazards in branching instructions is",
+    "a": "Operand forwarding",
+    "b": "Inserting NOP instructions",
+    "c": "Branch prediction",
+    "d": "Both B and C",
+    "ans": "d"
+  },
+  {
+    "question": "To avoid data hazard,",
+    "a": "Prediction of instructions can be carried out",
+    "b": "Operands can be forwarded",
+    "c": "Additional hardware can be incorporated while system design",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "Instruction hazards generally makes the pipeline",
+    "a": "To carry out proper operation",
+    "b": "To make inorder execution",
+    "c": "To stall for some clock cycles",
+    "d": "To make the execution time less than sequential execution",
+    "ans": "b"
+  },
+  {
+    "question": "Giving the data to the next instruction, before updating the external memory is called",
+    "a": "Stalling",
+    "b": "PC updation",
+    "c": "Branching",
+    "d": "Operand forwarding",
+    "ans": "d"
+  },
+  {
+    "question": "Back propagation is used in",
+    "a": "Static branch prediction",
+    "b": "Instruction prefetching",
+    "c": "Dynamic branch prediction",
+    "d": "Stalling",
+    "ans": "a"
+  },
+  {
+    "question": "In static branch prediction technique, when the branch target address is less than the current address, then the branch is considered to be",
+    "a": "Taken",
+    "b": "Not taken",
+    "c": "Strongly not taken",
+    "d": "None of the mentioned",
+    "ans": "a"
+  },
+  {
+    "question": "In dynamic branch prediction, when the branch is predicted to be taken and it is taken, the transition is",
+    "a": "Taken --> Not Taken",
+    "b": "Taken --> Weakly Taken",
+    "c": "Taken --> Strongly Taken",
+    "d": "Taken --> Strongly not taken",
+    "ans": "c"
+  },
+  {
+    "question": "Instruction level Parallelism can be achieved by",
+    "a": "Pipelining",
+    "b": "Superscalar processors",
+    "c": "Vector processors",
+    "d": "All the mentioned techniques",
+    "ans": "d"
+  },
+  {
+    "question": "More than one instruction is given to the pipeline in one clock cycle. This operation is called as",
+    "a": "Pipelining",
+    "b": "Superscalar processors",
+    "c": "Vector processors",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "One of the techniques to handle data hazards is",
+    "a": "Stalling",
+    "b": "Operand forwarding",
+    "c": "Oprand By-passing",
+    "d": "All the mentioned techniques",
+    "ans": "d"
+  },
+  {
+    "question": "Pipelining would be better implemented in",
+    "a": "Single bus Organization",
+    "b": "Multiple bus Organization",
+    "c": "No difference between the both",
+    "d": "Single memory unit organization",
+    "ans": "b"
+  },
+  {
+    "question": "The type of instruction that handles only the value of PC is",
+    "a": "Conditional branch instructions",
+    "b": "Unconditional branch instruction",
+    "c": "Data Instructions",
+    "d": "All the mentioned instructions",
+    "ans": "b"
+  },
+  {
+    "question": "The type of instruction that handles the flag registers and the value of PC is",
+    "a": "Conditional branch instructions",
+    "b": "Unconditional branch instruction",
+    "c": "Data Instructions",
+    "d": "All the mentioned instructions",
+    "ans": "a"
+  },
+  {
+    "question": "In dynamic branch prediction, when the branch is predicted to be not taken and it is not taken, the transition is",
+    "a": "Taken --> Not Taken",
+    "b": "Not Taken --> Weakly Taken",
+    "c": "Taken --> Strongly Taken",
+    "d": "Not Taken --> Strongly not taken",
+    "ans": "d"
+  },
+  {
+    "question": "In dynamic branch prediction, when the branch is predicted to be not taken and it is taken, the transition is",
+    "a": "Taken --> Not Taken",
+    "b": "Not Taken --> Weakly Taken",
+    "c": "Taken --> Strongly Taken",
+    "d": "Not Taken --> Strongly not taken",
+    "ans": "b"
+  },
+  {
+    "question": "An ALU with separate Integer unit and separate Floating Point units highly suitable for",
+    "a": "Pipelining",
+    "b": "Superscalar processors",
+    "c": "Vector processors",
+    "d": "All the mentioned processors",
+    "ans": "d"
+  },
+  {
+    "question": "________ Hazard can be eliminated with the help of compilers",
+    "a": "Instruction Hazards",
+    "b": "Data Hazards",
+    "c": "Structural Hazards",
+    "d": "None of the mentioned",
+    "ans": "a"
+  },
+  {
+    "question": "Processors which use Write Back Policy is advantageous during",
+    "a": "Operand forwarding",
+    "b": "Dynamic branch prediction",
+    "c": "Stalling",
+    "d": "Static Branch prediction",
+    "ans": "a"
+  },
+  {
+    "question": "During the execution of a program, it is available in",
+    "a": "Main memory",
+    "b": "External memory",
+    "c": "Cache memory",
+    "d": "Virtual memory",
+    "ans": "a"
+  },
+  {
+    "question": "An ALU with separate Integer unit and separate Floating Point units avoids",
+    "a": "Instruction Hazards",
+    "b": "Data Hazards",
+    "c": "Structural Hazards",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "ADD R0,R2,R3;                                                                                                                               MUL R4, R0,R5;                                                                                                                                      The hazard seen in the above instruction sequence is",
+    "a": "Instruction Hazards",
+    "b": "Data Hazards",
+    "c": "Structural Hazards",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "ADD R0,R6,R7;                                                                                                                               MUL R4, R0,R9;                                                                                                                                      The operand to be forwarded to avoid data hazard in the above instruction sequence is",
+    "a": "R2",
+    "b": "R3",
+    "c": "R5",
+    "d": "R0",
+    "ans": "d"
+  },
+  {
+    "question": "650: DIV [R12], R4;                                                                                                                                                                           651: JNZ 653;                                                                                                                                                                                                   The branch in stmt number 651 in the above instruction sequence is considered to be",
+    "a": "Taken",
+    "b": "Not Taken",
+    "c": "Branch target address out of scope",
+    "d": "All the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "if (a>b)                                                                                                                                               {  .....                                                                                                                                                                                                                   }                                                                                                                                                        else                                                                                                                                                    {  .....                                                                                                                                                                                                                   }                                                                                                                                                        In the above program sequence, if the condition is statisfied, the  _______ flag is set",
+    "a": "Carry",
+    "b": "Negative",
+    "c": "Overflow",
+    "d": "Zero",
+    "ans": "d"
+  },
+  {
+    "question": "ADD R0,R2,R3;                                                                                                                                                                        MUL R4, R6,R5;                                                                                                                                                                       ADD R1,R7,R8;                                                                                                                                                                        MUL R10, R11,R9;                                                                                                                                                                     The possible hazard in the above instruction sequence is",
+    "a": "Instruction Hazards",
+    "b": "Data Hazards",
+    "c": "Structural Hazards",
+    "d": "No hazards",
+    "ans": "c"
+  },
+  {
+    "question": "ADD R0,R2,R3;                                                                                                                                                                        MUL R4, R6,R5;                                                                                                                                                                       ADD R1,R7,R8;                                                                                                                                                                          MUL R10, R11,R9;                                                                                                                                                                               The possible hazard in the above instruction sequence can be avoided by using",
+    "a": "Operand forwarding",
+    "b": "Provision of extra hardware",
+    "c": "Inserting NOP instructions",
+    "d": "Either B or C",
+    "ans": "d"
+  },
+  {
+    "question": "Which of the following transitions is/or possible?                                                                                                                  A. Weakly taken --> Taken --> Strongly taken                                                                                                                        B. Not Taken --> Weakly Taken --> Taken                                                                                                                                C. Taken --> Not Taken --> Strongly Not taken",
+    "a": "A",
+    "b": "A, B",
+    "c": "C",
+    "d": "A, B, C",
+    "ans": "b"
+  },
+  {
+    "question": "DIV [R12], R4;                                                                                                                                                                           JNZ 458;                                                                                                                                                                                                   The possible hazard in the above instruction sequence is",
+    "a": "Instruction Hazards",
+    "b": "Data Hazards",
+    "c": "Structural Hazards",
+    "d": "No hazards",
+    "ans": "a"
+  },
+  {
+    "question": "Issuing more than one instruction per clock cycle is the principle of",
+    "a": "Pipelining",
+    "b": "Superscalar processors",
+    "c": "Vector processors",
+    "d": "Both B and C",
+    "ans": "d"
+  },
+  {
+    "question": "650: DIV [R12], R4;                                                                                                                                                                           651: JNZ 458;                                                                                                                                                                                                   The branch in stmt number 651 in the above instruction sequence is considered to be",
+    "a": "Taken",
+    "b": "Not Taken",
+    "c": "Branch target address out of scope",
+    "d": "All the mentioned",
+    "ans": "a"
+  },
+  {
+    "question": "What chaarcteristics of RAM memory makes it not suitable for permanent storage?",
+    "a": "too slow",
+    "b": "unreliable",
+    "c": "Volatile",
+    "d": "too bulky",
+    "ans": "c"
+  },
+  {
+    "question": "Which of the following is lowest in memory hierarchy?",
+    "a": "Cache",
+    "b": "Secondary",
+    "c": "Registers",
+    "d": "RAM",
+    "ans": "b"
+  },
+  {
+    "question": "In a vectored interrupt",
+    "a": "the bartnch address is assigned to a fixed location in memory",
+    "b": "the interrupting source supplies the branch information to the processor through an interrupt vector",
+    "c": "the branch address is obtained from a register in the processor",
+    "d": "none of the mentioned",
+    "ans": "b"
+  },
+  {
+    "question": "If the main memeory is of 8K  bytes and the cache memory is of 2K words. It uses associative mapping , then each word of cache memory shall be",
+    "a": "11 bits",
+    "b": "21 bits",
+    "c": "16 bits",
+    "d": "20 bits",
+    "ans": "c"
+  },
+  {
+    "question": "The performance of cache memory is frequently measured in terms of a quantity called",
+    "a": "miss ratio",
+    "b": "hit ratio",
+    "c": "latency ratio",
+    "d": "read ratio",
+    "ans": "c"
+  },
+  {
+    "question": "The performance of the cache memory is measured in terms of ?",
+    "a": "Hit Ratio",
+    "b": "chat ratio",
+    "c": "copy ratio",
+    "d": "data ratio",
+    "ans": "a"
+  },
+  {
+    "question": "Which technique helps processor to run a program concurrently with input output operations ?",
+    "a": "IOP",
+    "b": "DMA",
+    "c": "Interrupt driven I/O",
+    "d": "DCA",
+    "ans": "c"
+  },
+  {
+    "question": "Which exception is also known software interrupt ?",
+    "a": "Trap",
+    "b": "Call",
+    "c": "System Call",
+    "d": "all the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "What is used to increase the apparent size of physical memory?",
+    "a": "Disks",
+    "b": "Hard-disk",
+    "c": "virtual memory",
+    "d": "secondary memory",
+    "ans": "c"
+  },
+  {
+    "question": "In memory-mapped I/O ____________",
+    "a": "The I/O devices have a separate address space",
+    "b": "The I/O devices and the memory share the same address space",
+    "c": "A part of the memory is specifically set aside for the I/O operation",
+    "d": "The memory and I/O devices have an associated address space",
+    "ans": "b"
+  },
+  {
+    "question": "Which of the following is true about DMA?",
+    "a": "DMA is an approach of performing data transfers in bulk between memory and the external device without the intervention of the processor",
+    "b": "The DMA controller acts as a processor for DMA transfers and overlooks the entire process.",
+    "c": "The DMA controller has 3 registers",
+    "d": "All of the mentioned",
+    "ans": "d"
+  },
+  {
+    "question": "Which of the following is true?",
+    "a": "To overcome the slow operating speeds of the secondary memory we make use of faster flash drives",
+    "b": "If we use the flash drives instead of the harddisks, then the secondary storage can go above primary memory in the hierarchy.",
+    "c": "In the memory hierarchy, as the speed of operation increases the memory size also increases.",
+    "d": "None of the mentioned",
+    "ans": "a"
+  },
+  {
+    "question": "Desirable characteristic(s) of a memory system is(are)",
+    "a": "Speed and reliability",
+    "b": "Low power consumption",
+    "c": "Durability and compactness",
+    "d": "All of these",
+    "ans": "d"
+  },
+  {
+    "question": "For a memory system, the cycle time is",
+    "a": "Same as the access time",
+    "b": "Longer than the access time",
+    "c": "Shorter than the access time",
+    "d": "multiple of the access time",
+    "ans": "b"
+  },
+  {
+    "question": "In a virtual memory system the address space specified by the address lines of the CPU must be -----------than the physical memory size and -----------than the secondary storage size",
+    "a": "smaller, smaller",
+    "b": "smaller, larger",
+    "c": "larger, smaller",
+    "d": "larger, larger",
+    "ans": "c"
+  }
+]
