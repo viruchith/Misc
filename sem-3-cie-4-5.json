@@ -1,0 +1,362 @@
+[
+  {
+    "question": "What are intellectual property rights?",
+    "ans": "patent, trademark, copyright, industrial design,geographical indication"
+  },
+  {
+    "question": "Choose the correct definition of Patent :",
+    "ans": "A patent is an exclusive right granted for an invention, which is a product or a process that provides, in general, a new way of doing something, or offers a new technical solution to a problem"
+  },
+  {
+    "question": "Choose the correct definition of Copyright :",
+    "ans": "Copyright is a protection given to authors, copyright owner and performer of their copyright work and performances as prescribe under the Copyright Act 1987."
+  },
+  {
+    "question": "If Ajai invents a new process for recording music, she will likely apply for a:",
+    "ans": "Copyright"
+  },
+  {
+    "question": "The rights of an author or artist with respect to his or her creation are governed by the law of:",
+    "ans": "copyrights"
+  },
+  {
+    "question": "Street vendor on Bloor Street is selling fake \"TAGG\" watches. Under which area of intellectual property would the TAG Company likely seek a remedy?",
+    "ans": "Trademarks"
+  },
+  {
+    "question": "Amirul has designed a uniquely shaped walker for senior citizens, which can be collapsed and, \nwith the aid of two levers, used as a chair. Amirul's design is in commercial production under the \nname of Supportive Stroller. Which types of intellectual property would most likely apply to \nAmirul's creation?",
+    "ans": "Patent; trademark; industrial design"
+  },
+  {
+    "question": "Which type of patent would be applicable to something like “Amazon.com” one-click ordering system or “Trivago.com” model of purchasing accommodations?",
+    "ans": "Business method patent"
+  },
+  {
+    "question": "__ is any word, name, symbol, or device used to identify the source or origin of products or services and to distinguish those products or services from others",
+    "ans": "A trademark"
+  },
+  {
+    "question": ". Which of the following is NOT a basic requirement for a patent?",
+    "ans": "It must be extraordinarily creative"
+  },
+  {
+    "question": "Practice of registering a trade mark as a domain name with the intention of later selling it to the \nrightful owner",
+    "ans": "CYBERSQUATTING"
+  },
+  {
+    "question": "What protects the intellectual property created by artists?",
+    "ans": "Copyright"
+  },
+  {
+    "question": "What protects the intellectual property created by designers?",
+    "ans": "Industrial designs"
+  },
+  {
+    "question": "What protects the intellectual property created by inventors?",
+    "ans": "Patents"
+  },
+  {
+    "question": "What does a trademark protect?",
+    "ans": "Trademark rights allow you to stop other people from using your trademark to sell goods or services"
+  },
+  {
+    "question": "In most countries, how long does copyright last for?",
+    "ans": "50 years"
+  },
+  {
+    "question": "How long do patents usually last for?",
+    "ans": "20 years"
+  },
+  {
+    "question": "If you write an original story, what type of intellectual property gives you the right to decide who  can make and sell copies of your work?",
+    "ans": "Copyright"
+  },
+  {
+    "question": "A singer wishes to assign the rights to reproduce a video she has made of her concert.",
+    "ans": "Copy rights"
+  },
+  {
+    "question": "A new way to process milk so that there is no fat in any cheese made from it is covered under:",
+    "ans": "patents"
+  },
+  {
+    "question": "A trademark is represented by several key characteristics. Which of the following is one of them?",
+    "ans": "A trademark identifies a product's origin"
+  },
+  {
+    "question": "A biometric modality that uses the physical structure of an individual's fingerprint for identification purposes.",
+    "ans": "Fingerprint Recognition"
+  },
+  {
+    "question": "The ability to fool a biometric sensor into recognizing an illegitimate user as a legitimate user (verification) or into misidentifying someone who is in the database.",
+    "ans": "Spoofing"
+  },
+  {
+    "question": "Which one is not a considered a unique and distinct characteristic of security device measurement?",
+    "ans": "Tongue"
+  },
+  {
+    "question": ". Use of fingerprints, retina scans, or other body features as an authentication mechanism.",
+    "ans": "Biometric authentication"
+  },
+  {
+    "question": "How are fingerprints measured?",
+    "ans": "small magnifier called a loupe to view minute details (minutiae) of a print."
+  },
+  {
+    "question": "What is the most common type of biometrics device in the enterprise?",
+    "ans": "fingerprint scanning"
+  },
+  {
+    "question": "Which of the following is not an authentication factor?",
+    "ans": ""
+  },
+  {
+    "question": "An image of an object taken with an infrared camera that shows surface temperature variations",
+    "ans": "Thermograms"
+  },
+  {
+    "question": "The process by which the biometric sample captured in the previous block is transformed into an electronic representation. During enrollment this electronic representation is known as the biometric template. During the authentication process, it is known as the live sample.",
+    "ans": "Extraction"
+  },
+  {
+    "question": "What was the first company to provide biometric verification to unlock phones?",
+    "ans": "Apple"
+  },
+  {
+    "question": "Consists of the hardware in a biometric device that converts biometric input into electrical signals and conveys this information to the attached computer, such as a fingerprint sensor.",
+    "ans": "Sensor"
+  },
+  {
+    "question": "The automated process of locating and encoding distinctive characteristics from a biometric sample in order to generate a template.",
+    "ans": "Feature Extraction"
+  },
+  {
+    "question": "A biometric task where an unidentified individual is known to be in the database and the system \nattempts to determine his/her identity.",
+    "ans": "Closed-set Identification"
+  },
+  {
+    "question": "A biometric modality that uses the cadence of an individual's typing pattern for recognition.",
+    "ans": "Keystroke Dynamics"
+  },
+  {
+    "question": "The one-to-many process of comparing a submitted biometric sample against all biometric reference templates on file to determine whether it matches any of the templates",
+    "ans": "Biometric Identification"
+  },
+  {
+    "question": "A relatively stable human physical characteristic, such as a fingerprint, hand silhouette, iris pattern, or blood vessel pattern on the back of the eye. This type of measurement is unchanging and unalterable without significant duress.",
+    "ans": "Physiological"
+  },
+  {
+    "question": "The ability to fool a biometric sensor into recognizing an illegitimate user as a legitimate user (verification) or into misidentifying someone who is in the database",
+    "ans": "Spoofing"
+  },
+  {
+    "question": "A minutiae point at the ending of a friction ridge",
+    "ans": "Ridge Ending"
+  },
+  {
+    "question": "The point in a fingerprint where a ridge divides or splits to form two ridges that continue past the point of division for a distance that is at least equal to the spacing between adjacent ridges at the point of bifurcation",
+    "ans": "Bifurcation"
+  },
+  {
+    "question": "The following can be patented",
+    "ans": "Patentable subject matter"
+  },
+  {
+    "question": ". Trade mark",
+    "ans": "recognizable insignia, phrase, word, or symbol that denotes a specific product and legally differentiates it from all other products of its kind"
+  },
+  {
+    "question": ". Requires the subject to look into a reticle and focus on a visible target while the scan is completed.",
+    "ans": "Retinal Scanning"
+  },
+  {
+    "question": "A proprietary finger scanning technique",
+    "ans": "Autocorrelation"
+  },
+  {
+    "question": "The presentation of live biometric measure in an attempt to fraudulently impersonate someone other than the submitter",
+    "ans": "Mimic"
+  },
+  {
+    "question": "Information accuracy deals with ------------ of information",
+    "ans": "THE CORRECTNESS OF THE OUTPUT"
+  },
+  {
+    "question": "Computer Crime is the act of using a ------------ to commit an illegal act",
+    "ans": "COMPUTER/INTERNET"
+  },
+  {
+    "question": "one who gains unauthorized computer access, but without doing damage",
+    "ans": "HACKER"
+  },
+  {
+    "question": "more than how many % of computer crimes are contributed by authorized employees inside the organization",
+    "ans": "MORE THAN 22%"
+  },
+  {
+    "question": "finding private info in garbage cans is --------------",
+    "ans": "FUROR"
+  },
+  {
+    "question": "stealing credit card numbers by spying",
+    "ans": "SPYWARE"
+  },
+  {
+    "question": "which of the following is a destructive program that disrupts the normal functioning of the system",
+    "ans": "COMPUTER VIRUS"
+  },
+  {
+    "question": "the process of encoding messages before they enter the network or airwaves",
+    "ans": "ENCRYPTION"
+  },
+  {
+    "question": "which one is the hardware and software designed to keep unauthorized users out of network systems",
+    "ans": "FIREWALL"
+  },
+  {
+    "question": "which is protecting our cyber space (critical infrastructure) from attack, damage, misuse and economic espionage",
+    "ans": "CYBER SECURITY"
+  },
+  {
+    "question": "when a group of people is trying to prevent internet site from functioning effectively is -----------",
+    "ans": "ISOC INTERNET SOCIETY"
+  },
+  {
+    "question": "destroying the entire computer or its peripherals is -------",
+    "ans": "VIRUS"
+  },
+  {
+    "question": "unwanted sending bulk emails for commercial purposes is ---------",
+    "ans": "UNWNTED BULK EMAIL(UBE)"
+  },
+  {
+    "question": "is used for increasing the security of email communications",
+    "ans": "PGP"
+  },
+  {
+    "question": "A fictitious name that a person or group assumes for a particular purpose, which differs from their original or true name is --------------",
+    "ans": "PSEUDONYM"
+  },
+  {
+    "question": "which is the one that results in the infiltration of a company’s core networks or enterprise system",
+    "ans": "SECURITY BREACH"
+  },
+  {
+    "question": "which of the following can only be committed using computers, computer networks or other forms of information communication technology",
+    "ans": "CYBER DEPENDENT CRIME"
+  },
+  {
+    "question": "Cybercrime can involve -----------",
+    "ans": "COMPUTER AND INTERNET"
+  },
+  {
+    "question": "which one of the following is when the victim receives a supposedly legitimate email with a link that leads to a hostile website",
+    "ans": "PHISHING"
+  },
+  {
+    "question": "That gap between those with computer access and those who don’t have it",
+    "ans": "DIGITAL DIVIDE"
+  },
+  {
+    "question": "which one is registering a domain name and then trying to sell the name for big bucks to a person, company",
+    "ans": "DOMIN FLIPPING"
+  },
+  {
+    "question": "who will steal the personal data to affect the operations of e-commerce and finance",
+    "ans": "HACKERS"
+  },
+  {
+    "question": "are those who seek commercial gain from hacking banks and financial institutions as well as computer ransom ware",
+    "ans": "CYBER CRIMINALS"
+  },
+  {
+    "question": "Keep the Computer System Up-To-Date is one of the ways for preventing cyber crimes",
+    "ans": "TRojan remover that can detect and remove any Trojans on your device."
+  },
+  {
+    "question": "One common technique scammers employ is",
+    "ans": "DECEPTIVE PHISHING"
+  },
+  {
+    "question": "Stealing of another’s social security number, credit card number, or other personal information is -----------",
+    "ans": "THEFT"
+  },
+  {
+    "question": "skimming small amounts of money in computer crime is ------------",
+    "ans": "FRAUDSTERS"
+  },
+  {
+    "question": "using information technology to repeatedly harm or harass people in deliberate manner is ----------",
+    "ans": "CYBERBULLYING"
+  },
+  {
+    "question": "pre-meditated use of computer technology and internet in terrorist activities is ---------------",
+    "ans": "CYBERTERRORISM/CYBERATTACK"
+  },
+  {
+    "question": "Which of the following are the types of software piracy?",
+    "ans": "SOFTLIFTING Hard disk loading. Renting. ...OEM unbundling. ...\nCounterfeiting. ...\nOnline piracy."
+  },
+  {
+    "question": "Which one of the following is an example of phishing attack?",
+    "ans": "Urgent messages about your bank account, credit card, a friend who needs money, or a package you ordered are common phishing lures"
+  },
+  {
+    "question": "How will you identify a Trojan virus?",
+    "ans": "Trojan remover that can detect and remove any Trojans on your device."
+  },
+  {
+    "question": "Which of the following is a ransom ware attack?",
+    "ans": "drive-by' attack, where insecure websites are targeted and used to carry out an attack. ..."
+  },
+  {
+    "question": "Which of the following is an example of artificial intelligence",
+    "ans": "Manufacturing robots."
+  },
+  {
+    "question": "Many Cyber Crimes comes under Indian Penal Code Which one of the following is an example?",
+    "ans": "A. Sending Threatening message by Email B. Forgery of Electronic Record C. Bogus Website D. All of above                              ANS :ALL THE ABOVE"
+  },
+  {
+    "question": "The Altering of data so that it is not usable unless the changes are undone is",
+    "ans": "ENCRPTION"
+  },
+  {
+    "question": "The following cannot be exploited by assigning or by licensing the rights of others",
+    "ans": "a. Patents b. Designs c. Trademark d. All of the above (Ans: c)"
+  },
+  {
+    "question": "Data theft includes",
+    "ans": "act of stealing information stored on computers, servers, or other devices from an unknowing victim with the intent to compromise privacy or obtain confidential information"
+  },
+  {
+    "question": "Hacking means",
+    "ans": "the gaining of unauthorized access to data in a system or computer."
+  },
+  {
+    "question": "Advantage a non–profit has when opening a private social network",
+    "ans": "a.the start-up cost of a private social network b.spend more time using social networks.   c.it has an immediate user base of people interested in the cause.  d.supporters have a higher tolerance for messages. Ans: c"
+  },
+  {
+    "question": "How can a company ensure that the proper audience finds their YouTube videos?",
+    "ans": "a. Post links on the company blog to the YouTube videos b. There is no method to effectively direct people to the company videos c. Use of keywords  d. Sending out mail advertisements"
+  },
+  {
+    "question": "Try to keep your passwords without meaning so that _____________ attack becomes almost impossible to perform successfully",
+    "ans": "PASSWORD GUESHING ATTACK"
+  },
+  {
+    "question": "What is Mobile Identification Number?",
+    "ans": "mobile subscription identification number (MSIN) refers to the 10-digit unique number that a wireless carrier uses to identify a mobile phone, which is the last part of the international mobile subscriber identity (IMSI)"
+  },
+  {
+    "question": "What is the shape of the cell present in the cellular system?",
+    "ans": "HEXAGONAL"
+  },
+  {
+    "question": "Ways to prevent or stop cyber bullying?",
+    "ans": "About · Identifying · Effects · Preventing · Reporting"
+  }
+]
