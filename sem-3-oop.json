@@ -1,0 +1,1613 @@
+[
+  {
+    "S.no": 1,
+    "question": "An object is an …….. of class",
+    "a": "instance",
+    "b": "implement",
+    "c": "inheritance",
+    "d": "invoke",
+    "ans": "a"
+  },
+  {
+    "S.no": 2,
+    "question": "Which of the following denotes a Javadoc comment?",
+    "a": "//#",
+    "b": "/*",
+    "c": "/**",
+    "d": "//**",
+    "ans": "c"
+  },
+  {
+    "S.no": 3,
+    "question": "…….. statement is valid for array declaration",
+    "a": "int number();",
+    "b": "float number();",
+    "c": "float number[];",
+    "d": "count int[];",
+    "ans": "c"
+  },
+  {
+    "S.no": 4,
+    "question": "……. operators which concatenates two strings",
+    "a": "+",
+    "b": "++",
+    "c": "-",
+    "d": "+-",
+    "ans": "a"
+  },
+  {
+    "S.no": 5,
+    "question": "Which of the following statement is/are true?\ni) The name of a java program file must match the name of the class with the extension .java\nii) Two methods cannot have the same name in java",
+    "a": "i- only",
+    "b": "ii- only",
+    "c": "Both I and ii",
+    "d": "None of the above",
+    "ans": "a"
+  },
+  {
+    "S.no": 6,
+    "question": "State whether the following statement is True or False?\ni) The modulus operator(%) can be used only with integer operands\nii) Declarations can appear anywhere in the body of a Java method",
+    "a": "i-True, ii-False",
+    "b": "i-False, ii-True",
+    "c": "i-True, ii-True",
+    "d": "i-False, ii-False",
+    "ans": "b"
+  },
+  {
+    "S.no": 7,
+    "question": "Which of the following methods belong to the String class?",
+    "a": "length()",
+    "b": "CompareTo()",
+    "c": "substring()",
+    "d": "All of the above",
+    "ans": "d"
+  },
+  {
+    "S.no": 8,
+    "question": "Which of the following statements are valid array declaration?\ni) int number(); ii) float average[ ];\niii) double[]marks; iv) counter int[];",
+    "a": "I and ii",
+    "b": "ii and iii",
+    "c": "iii and iv",
+    "d": "All I, ii, iii and iv",
+    "ans": "b"
+  },
+  {
+    "S.no": 9,
+    "question": "……. is used for initializing the value to the string object.",
+    "a": "Character Literals",
+    "b": "String Literals",
+    "c": "String group literals",
+    "d": "Group literals",
+    "ans": "b"
+  },
+  {
+    "S.no": 10,
+    "question": "Which of the following keywords are used to control access to a class member?\ni) default ii) abstract iii) protected iv) interface v) public",
+    "a": "I, ii and iii only",
+    "b": "ii, iii and iv only",
+    "c": "iii, iv and v only",
+    "d": "ii, iii and v only",
+    "ans": "d"
+  },
+  {
+    "S.no": 11,
+    "question": "Variable declared as ……… do not occupy on a per-instance basis",
+    "a": "Static",
+    "b": "Final",
+    "c": "Abstract",
+    "d": "Code",
+    "ans": "b"
+  },
+  {
+    "S.no": 12,
+    "question": "Find the operator which can be used to compare two values",
+    "a": "<>",
+    "b": "><",
+    "c": "==",
+    "d": "=",
+    "ans": "c"
+  },
+  {
+    "S.no": 13,
+    "question": "What is a correct syntax to output \"Hello World\" in Java?",
+    "a": "All the below",
+    "b": "System.out.println(“Hello world”);",
+    "c": "System.out.print(“Hello World”);",
+    "d": "System.out.printf(“%s”,“Hello World”);",
+    "ans": "a"
+  },
+  {
+    "S.no": 14,
+    "question": "How do you create a method in Java?",
+    "a": "methodName()",
+    "b": "Method()",
+    "c": "Methodname()",
+    "d": "method()",
+    "ans": "a"
+  },
+  {
+    "S.no": 15,
+    "question": "public class Test { }\nWhat is the prototype of the default constructor?",
+    "a": "Test( )",
+    "b": "Test(void)",
+    "c": "public Test( )",
+    "d": "public Test(void)",
+    "ans": "a"
+  },
+  {
+    "S.no": 16,
+    "question": "What will be the output of the program?\n\npublic class A\n{ \n    void A() /* Line 3 */\n    {\n        System.out.println(\"Class A\"); \n    } \n    public static void main(String[] args) \n    { \n        new A(); \n    }\n}",
+    "a": "Class A",
+    "b": "Compilation fails",
+    "c": "An exception is thrown at line 3",
+    "d": "The code executes with no output",
+    "ans": "d"
+  },
+  {
+    "S.no": 17,
+    "question": "What of the following is the default value of an instance variable?",
+    "a": null,
+    "b": 0,
+    "c": "Depends upon the type of variable",
+    "d": "Not assigned",
+    "ans": "c"
+  },
+  {
+    "S.no": 18,
+    "question": "Keyword ………. is always a reference to the object",
+    "a": "new",
+    "b": "this",
+    "c": "invoke",
+    "d": "class",
+    "ans": "b"
+  },
+  {
+    "S.no": 19,
+    "question": "One interface can inherit another by use of the keyword ……..",
+    "a": "public",
+    "b": "extends",
+    "c": "method name",
+    "d": "class name",
+    "ans": "b"
+  },
+  {
+    "S.no": 20,
+    "question": "Every method of a ……….. is implicitly final",
+    "a": "static class",
+    "b": "dynamic class",
+    "c": "final class",
+    "d": "abstract class",
+    "ans": "c"
+  },
+  {
+    "S.no": 21,
+    "question": "Which of the following is true?",
+    "a": "Java uses only interpreter",
+    "b": "Java uses only compiler",
+    "c": "Java uses both interpreter and compiler",
+    "d": "None of these",
+    "ans": "c"
+  },
+  {
+    "S.no": 22,
+    "question": "A Java file with extension ‘.class’ contains",
+    "a": "Java source code",
+    "b": "HTML tags",
+    "c": "Java Byte code",
+    "d": "A program file written in Java programming language",
+    "ans": "c"
+  },
+  {
+    "S.no": 23,
+    "question": "Which of the following is an incorrect array declaration ?",
+    "a": "int[ ] a = new int[ 10 ];",
+    "b": "int [ ] a;",
+    "c": "int[ ][ ] a = new int[ 10 ];",
+    "d": "int[ ][ ] a = { { 1, 2, 3 }, {1, 2, 3 } };",
+    "ans": "c"
+  },
+  {
+    "S.no": 24,
+    "question": "Which of the following cannot be used for a variable name in Java ?",
+    "a": "identifier",
+    "b": "final",
+    "c": "malloc",
+    "d": "calloc",
+    "ans": "b"
+  },
+  {
+    "S.no": 25,
+    "question": "Which of the following is a valid declaration of an object of class, say Box?",
+    "a": "Box obj = new Box( );",
+    "b": "Box obj = new Box;",
+    "c": "obj = new Box( );",
+    "d": "new Box obj;",
+    "ans": "a"
+  },
+  {
+    "S.no": 26,
+    "question": "Which of the following statement is incorrect ?",
+    "a": "Every class must contain a main() method",
+    "b": "Applets do not require a main() method at all",
+    "c": "There can be only one main() method in a program",
+    "d": "main( ) method must be made public",
+    "ans": "a"
+  },
+  {
+    "S.no": 27,
+    "question": "What is the return type of a method that does not return any value ?",
+    "a": "int",
+    "b": "float",
+    "c": "void",
+    "d": "double",
+    "ans": "c"
+  },
+  {
+    "S.no": 28,
+    "question": "What is the process of defining more than one method in a class having the same name but differentiated by method signature?",
+    "a": "Method overriding",
+    "b": "Method overloading",
+    "c": "Encapsulation",
+    "d": "Inheritance",
+    "ans": "b"
+  },
+  {
+    "S.no": 29,
+    "question": "Which of the following is called when a method having the same name as that the name of the class where it is defined?",
+    "a": "abstract",
+    "b": "this",
+    "c": "final",
+    "d": "constructor",
+    "ans": "d"
+  },
+  {
+    "S.no": 30,
+    "question": "Which of the following statements is/ are incorrect?",
+    "a": "Two or more methods with the same name can be differentiated on the basis of their parameters data type.",
+    "b": "Two or more method having the same name can be differentiated on the basis of number of parameters.",
+    "c": "Any already defined method in Java library can be defined again in the program with different data type of parameters.",
+    "d": "No method can call another method without creating an object of the class to which it is defined.",
+    "ans": "d"
+  },
+  {
+    "S.no": 31,
+    "question": "If we declare int[] ar={0,1,2,3,4};. Then what is the size of ar is",
+    "a": 0,
+    "b": 2,
+    "c": 3,
+    "d": 5,
+    "ans": "d"
+  },
+  {
+    "S.no": 32,
+    "question": "What would display from the following statements? \nint[] ar={1,2,3,4,5}; \nSystem.out.println(ar[1]+ar[2]);",
+    "a": 5,
+    "b": 4,
+    "c": 3,
+    "d": 2,
+    "ans": "a"
+  },
+  {
+    "S.no": 33,
+    "question": "What is the output of the following \nclass Low\n{\n  static void doIt(int[] z)\n  {\n    z[0]=0;\n  }\n}\npublic class YourClassNameHere {\n    public static void main(String[] args) {\nint[] ar={1,2,3,4,5};\nLow.doIt(ar);\nfor(int j=0;j<ar.length;j++)\n\nSystem.out.println(ar[j]+\"\");\n    }\n}",
+    "a": "1 2 3 4 5",
+    "b": "0 2 3 4 5",
+    "c": "0 1 2 3 4",
+    "d": "2 3 4 5 0",
+    "ans": "b"
+  },
+  {
+    "S.no": 34,
+    "question": "If you want your condition to depend upon two conditions BOTH being TRUE, What is the proper notation to put between the two Boolean statements.",
+    "a": "!",
+    "b": "||",
+    "c": "&&",
+    "d": "None of the these",
+    "ans": "c"
+  },
+  {
+    "S.no": 35,
+    "question": "What is the correct syntax for java main method",
+    "a": "public static void main(String[] args)",
+    "b": "public static void main(String a[])",
+    "c": "public static void main(String args[])",
+    "d": "All of these",
+    "ans": "d"
+  },
+  {
+    "S.no": 36,
+    "question": "Choose the appropriate data type for this field: isSwimmer",
+    "a": "Integer",
+    "b": "Boolean",
+    "c": "Char",
+    "d": "String",
+    "ans": "b"
+  },
+  {
+    "S.no": 37,
+    "question": "Choose the appropriate data type for this field: 5.5",
+    "a": "Integer",
+    "b": "Double",
+    "c": "Char",
+    "d": "String",
+    "ans": "b"
+  },
+  {
+    "S.no": 38,
+    "question": "Is Empty.java file name a valid source file name?",
+    "a": "Yes",
+    "b": "No",
+    "c": "",
+    "d": "",
+    "ans": "a"
+  },
+  {
+    "S.no": 39,
+    "question": "What displays from the following statements? \nString word=\"abcde\";\nfor(int i=0;i<4;i+=2)",
+    "a": "ac",
+    "b": "abcd",
+    "c": "abc",
+    "d": "bc",
+    "ans": "a"
+  },
+  {
+    "S.no": 40,
+    "question": "Is it possible to access the static member without creating a reference object. If so What is the output of this code?.\nclass Low\n{\n  static int a=10;\n}\n    public class YourClassNameHere\n {\n    public static void main(String[] args)\n {\nSystem.out.println(Low.a);\n    }\n}",
+    "a": "Run Time Error",
+    "b": 10,
+    "c": "Compiler error",
+    "d": "It is not possible to access static member without reference creation",
+    "ans": "b"
+  },
+  {
+    "S.no": 41,
+    "question": "Does field ‘i’ of Class A be inherited to Class B in the below code?\nclass A\n{\n    protected int i;\n}\n \nclass B extends A\n{\n    ---- \n}",
+    "a": "Yes",
+    "b": "No",
+    "c": "",
+    "d": "",
+    "ans": "a"
+  },
+  {
+    "S.no": 42,
+    "question": "Predict the output of the following public class YourClassNameHere {\n    public static void main(String[] args) {\n       int x = -4; \n       System.out.println(x>>1);   \n       int y = 4; \n       System.out.println(y>>1);   \n    }    \n}",
+    "a": "(-2 2)",
+    "b": "(2 2)",
+    "c": "(0 2)",
+    "d": "Compiler Error",
+    "ans": "a"
+  },
+  {
+    "S.no": 43,
+    "question": "What is the output of the followind code\npublic class YourClassNameHere {\n    public static void main(String[] args) {\n       int x=0, y=0,z=0;\n       x=(++x + y--)*z++;\n       System.out.println(x);\n    }    \n}",
+    "a": 4,
+    "b": 1,
+    "c": 0,
+    "d": 3,
+    "ans": "c"
+  },
+  {
+    "S.no": 44,
+    "question": "Find the output of the code\npublic class YourClassNameHere {\n    public static void main(String[] args) {\nif(1+1+1+1+1==5)\nSystem.out.println(\"TRUE\");\nelse\nSystem.out.println(\"FALSE\");\n    }    \n}",
+    "a": "TRUE",
+    "b": "FALSE",
+    "c": "Compiler error",
+    "d": "Runtime error",
+    "ans": "a"
+  },
+  {
+    "S.no": 45,
+    "question": "What is the output of this question?\npublic class Test1\n {\nint x=10;\npublic static void main(String[] args)\n {\nTest1 t1 = new Test1(); \nTest1 t2 = new Test1(); \n t1.x = 20; \nSystem.out.print(t1.x + \" \"); \nSystem.out.println(t2.x); \n    }    \n}",
+    "a": "10  10",
+    "b": "20  20",
+    "c": "10  20",
+    "d": "20 10",
+    "ans": "d"
+  },
+  {
+    "S.no": 46,
+    "question": "Which of these is correct way of calling a constructor having no parameters, of superclass A by subclass B?",
+    "a": "super(void);",
+    "b": "superclass();",
+    "c": "super.A();",
+    "d": "super();",
+    "ans": "d"
+  },
+  {
+    "S.no": 47,
+    "question": "What is the process of defining a method in a subclass having same name and type signature as a method in its super class",
+    "a": "method overloading",
+    "b": "method overriding",
+    "c": "method hiding",
+    "d": "none of the mentioned",
+    "ans": "b"
+  },
+  {
+    "S.no": 48,
+    "question": "What is the output of following Java Program?\nclass Base {\n    public void show() {\n       System.out.println(\"Base::show() called\");\n    }\n}\nclass Derived extends Base {\n    public void show() {\n       System.out.println(\"Derived::show() called\");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Base b = new Derived();;\n        b.show();\n    }\n}",
+    "a": "Derived::show() called",
+    "b": "method overriding",
+    "c": "Compile Time Error",
+    "d": "Derived::show() called\nBase::show() called",
+    "ans": "a"
+  },
+  {
+    "S.no": 49,
+    "question": "A class member declared protected becomes a member of a subclass of which type?",
+    "a": "public member",
+    "b": "private member",
+    "c": "protected member",
+    "d": "static member",
+    "ans": "b"
+  },
+  {
+    "S.no": 50,
+    "question": "Which of this keyword must be used to inherit a class?",
+    "a": "super",
+    "b": "this",
+    "c": "extent",
+    "d": "extends",
+    "ans": "d"
+  },
+  {
+    "S.no": 51,
+    "question": "class SuperClass{\n    SuperClass(){\n         super();\n         System.out.println(\"constructor of SuperClass\");\n    }\n}\n \nclass SubClass extends SuperClass{\n    SubClass(){\n          super();\n          System.out.println(\"constructor of SubClass\");\n    }\n    \n}\n \npublic class Main{\n    public static void main(String[] args) {\n           new SubClass(); //will call constructor of SubClass\n    }\n}\nPredict the output",
+    "a": "compile time error",
+    "b": "constructor of SuperClass\nconstructor of SubClass",
+    "c": "constructor of SubClass\nconstructor of SuperClass",
+    "d": "",
+    "ans": "b"
+  },
+  {
+    "S.no": 52,
+    "question": "Which of the following is used to achieve multiple inheritance in Java",
+    "a": "abstract",
+    "b": "final",
+    "c": "interface",
+    "d": "",
+    "ans": "c"
+  },
+  {
+    "S.no": 53,
+    "question": "Super keyword in java is used to",
+    "a": "Refer immediate parent class instance variables.",
+    "b": "Invoke immediate parent class methods.",
+    "c": "Invoke immediate parent class constructor.",
+    "d": "All of the above",
+    "ans": "d"
+  },
+  {
+    "S.no": 54,
+    "question": "What will be the output of the following Java code?\n\n    class A {\n        public int i;\n        public int j;\n        A() {\n            i = 4;\n            j = 3;\n}\n    }\n    class B extends A {\n        int a;\nB() {\n            super();\n        }\n    }\n    class super_use\n    {\n        public static void main(String args[]){\n            B obj = new B();\n            System.out.println(obj.i + \" \" + obj.j)\n        }\n   }",
+    "a": "3 4",
+    "b": "4 3",
+    "c": "3 3",
+    "d": "4 4",
+    "ans": "b"
+  },
+  {
+    "S.no": 55,
+    "question": "Which of the following is incorrect?\nX: this() is used to invoke a constructor of the same class.\nY: super() is used to invoke a superclass constructor.",
+    "a": "Both are correct",
+    "b": "X only",
+    "c": "Y only",
+    "d": "Both are incorrect",
+    "ans": "c"
+  },
+  {
+    "S.no": 56,
+    "question": "What is the return type of the hashCode() method in the Object class?Object",
+    "a": "int",
+    "b": "long",
+    "c": "void",
+    "d": "",
+    "ans": "a"
+  },
+  {
+    "S.no": 57,
+    "question": "Which of these keywords can be used to prevent inheritance of a class?",
+    "a": "super",
+    "b": "constant",
+    "c": "class",
+    "d": "final",
+    "ans": "d"
+  },
+  {
+    "S.no": 58,
+    "question": "What will be the output of the following Java code?\n\n    class Output {\n        public static void main(String args[]){\n             Object obj = new Object();\nSystem.out.print(obj.getclass());\n        }\n    }",
+    "a": "Object",
+    "b": "class Object",
+    "c": "class java.lang.Object",
+    "d": "",
+    "ans": "c"
+  },
+  {
+    "S.no": 59,
+    "question": "The object cloning is a way to create exact copy of an object?",
+    "a": "TRUE",
+    "b": "FALSE",
+    "c": "",
+    "d": "",
+    "ans": "a"
+  },
+  {
+    "S.no": 60,
+    "question": "Which method compares the given object to this object?",
+    "a": "public final void notifyAll()",
+    "b": "public boolean equals(Object obj)",
+    "c": "public final ClassgetClass()",
+    "d": "public final void notify()",
+    "ans": "b"
+  },
+  {
+    "S.no": 61,
+    "question": "What will be the output of the following Java code?\n\n    class access{\n        public int x;\n  private int y;\n        void cal(int a, int b) {\n            x = a + 3;\n            y = b;\n        }\n        void print() {\n            System.out.println(\" \" + y);\n        }\n    }\n    public class access_specifier{\n        public static void main(String args[]){\n            access obj = new access();\n            obj.cal(16, 17);\n            System.out.println(obj.x);\n            obj.print();\n        }\n   }",
+    "a": "19\n17",
+    "b": "19\n19",
+    "c": "17\n19",
+    "d": "17\n17",
+    "ans": "a"
+  },
+  {
+    "S.no": 62,
+    "question": "Which of these access specifiers must be used for main() method?",
+    "a": "public",
+    "b": "private",
+    "c": "protected",
+    "d": "default",
+    "ans": "a"
+  },
+  {
+    "S.no": 63,
+    "question": "Given a method in a protected class, what access modifier do you use to restrict access to that method to only the other members of the same class?",
+    "a": "final",
+    "b": "static",
+    "c": "protected",
+    "d": "private",
+    "ans": "d"
+  },
+  {
+    "S.no": 64,
+    "question": "import java.util.Scanner;\nclass prog{\n    public static void main(String args[]){\n        char vowels[] = {'a','A','e','E','i','I','o','O','u','U'};\n        boolean vowel = false;\n        Scanner sc = new Scanner(System.in);\n        char inp = sc.next().charAt(0);\n        for(char c : vowels){\n            if(c==inp){\n                %%%%%%%%%%\n            }\n        }\n        if(vowel==true){\n            System.out.println(\"Vowel\");\n        }else{\n            \n            System.out.println(\"Consonant\");\n        }\n        \n    }\n}\nIdentify the correct statement to replace the %%%%%%%%%%",
+    "a": "vowel = false;",
+    "b": "vowel = true;",
+    "c": "",
+    "d": "",
+    "ans": "b"
+  },
+  {
+    "S.no": 65,
+    "question": "import java.util.Scanner;\n\nclass prog{\n    public static void main(String[] args){\n        Scanner sc = new Scanner(System.in);\n        int inp = sc.nextInt();\n        if(inp >=1 && inp<=100000){\n            if(inp%2 == 0){\n                System.out.println(\"Even\");\n            }else{\n                System.out.println(\"Odd\");\n            }\n        }\n    }\n}\n\nInput (inp): 123456\nwhat is the Expected output?",
+    "a": "Even",
+    "b": "Odd",
+    "c": "Nothing will display",
+    "d": "",
+    "ans": "c"
+  },
+  {
+    "S.no": 66,
+    "question": "// filename: Main.java\nclass Base {\nBase() {\nSystem.out.println(\"Base Class Constructor Called \");\n}\n}\n\nclass Derived extends Base {\nDerived() {\nSystem.out.println(\"Derived Class Constructor Called \");\n}\n}\n\npublic class Main {\npublic static void main(String[] args) {\nDerived d = new Derived();\n}\n}\n\nPredict the output…",
+    "a": "Base Class Constructor Called\nDerived Class Constructor Called",
+    "b": "Derived Class Constructor Called\nBase Class Constructor Called",
+    "c": "",
+    "d": "",
+    "ans": "a"
+  },
+  {
+    "S.no": 67,
+    "question": "// filename: Main.java\nclass Base {\nint x;\nBase(int _x) {\nx = _x;\n}\n}\n\nclass Derived extends Base {\nint y;\nDerived(int _x, int _y) {\nsuper(_x);\ny = _y;\n}\n\nvoid Display() {\nSystem.out.println(\"x = \"+x+\", y = \"+y);\n}\n}\n\n\npublic class Main {\npublic static void main(String[] args) {\nDerived d = new Derived(10, 20);\nd.Display();\n}\n}\n\nWhat is the value of x and y?",
+    "a": "x = 10, y = 20",
+    "b": "x = 20, y = 10",
+    "c": "x = 10, y = 10",
+    "d": "x = 20, y = 20",
+    "ans": "a"
+  },
+  {
+    "S.no": 68,
+    "question": "class X{\n    System.out.println(1);\n}\n \nclass Y{\n    System.out.println(2);\n}\n \nclass Z extends X, Y{\n    System.out.println(3);\n}\n\nPredict the output…",
+    "a": 1,
+    "b": "1 2 3",
+    "c": "Compile Time Error",
+    "d": "3 2 1",
+    "ans": "c"
+  },
+  {
+    "S.no": 69,
+    "question": "What will be the output of the below Java program?\n\nclass A{\n        System.out.print(1);\n    }\n}\n \nclass B extends A{\n        System.out.print(2);\n    }\n}\n \nclass C extends B{\n        System.out.print(3);\n    }\n}\n \npublic class MainClass{\n    public static void main(String[] args){\n        C c = new C();\n    }\n}",
+    "a": "1 2 3",
+    "b": "1 2",
+    "c": "3 2 1",
+    "d": "1 1 1",
+    "ans": "a"
+  },
+  {
+    "S.no": 70,
+    "question": "What is output for the below Java program?\nclass A{\n    int i = 10;\n}\n \nclass B extends A{\n    int i = 20;\n}\n \npublic class MainClass{\n    public static void main(String[] args){\n        A a = new B();\n        System.out.println(a.i);\n    }\n}",
+    "a": 10,
+    "b": 20,
+    "c": 30,
+    "d": 40,
+    "ans": "a"
+  },
+  {
+    "S.no": 71,
+    "question": "Which of these is correct way of calling a constructor having no parameters, of superclass A by subclass B?",
+    "a": "super(void);",
+    "b": "superclass();",
+    "c": "super.A();",
+    "d": "super();",
+    "ans": "d"
+  },
+  {
+    "S.no": 72,
+    "question": "Which of these exceptions handles the situations when an illegal argument is used to invoke a method?",
+    "a": "IllegalException",
+    "b": "Argument Exception",
+    "c": "IllegalArgumentException",
+    "d": "IllegalMethodArgumentExcepetion",
+    "ans": "c"
+  },
+  {
+    "S.no": 73,
+    "question": "Which of these exceptions will be thrown if we declare an array with negative size?",
+    "a": "IllegalArrayException",
+    "b": "IllegalArraySizeExeption",
+    "c": "NegativeArrayException",
+    "d": "NegativeArraySizeExeption",
+    "ans": "d"
+  },
+  {
+    "S.no": 74,
+    "question": "Which of these packages contain all the Java’s built in exceptions?",
+    "a": "java.io",
+    "b": "java.util",
+    "c": "java.lang",
+    "d": "java.net",
+    "ans": "c"
+  },
+  {
+    "S.no": 75,
+    "question": "Which of these exceptions will be thrown if we use null reference for an arithmetic operation?",
+    "a": "ArithmeticException",
+    "b": "NullPointerException",
+    "c": "IllegalAccessException",
+    "d": "IllegalOperationException",
+    "ans": "b"
+  },
+  {
+    "S.no": 76,
+    "question": "Which of these class is used to create user defined exception?",
+    "a": "java.lang",
+    "b": "Exception",
+    "c": "RunTime",
+    "d": "System",
+    "ans": "b"
+  },
+  {
+    "S.no": 77,
+    "question": "Predict the output\n class exception_handling \n    {\n        public static void main(String args[]) \n        {\n            try \n            {\n                int a[] = {1, 2,3 , 4, 5};\n                for (int i = 0; i < 7; ++i) \n                    System.out.print(a[i]);\n            }\n            catch(ArrayIndexOutOfBoundsException e) \n            {\n         System.out.print(\"0\");         \n            }\n        }\n    }",
+    "a": 12345,
+    "b": 123450,
+    "c": 1234500,
+    "d": "Compilation Error",
+    "ans": "b"
+  },
+  {
+    "S.no": 78,
+    "question": "What is the output ?\n class exception_handling \n    {\n        public static void main(String args[]) \n        {\n            try \n            {\n                int a[] = {1, 2,3 , 4, 5};\n                for (int i = 0; i < 5; ++i) \n                    System.out.print(a[i]);\n                int x = 1/0;\n            }\n            catch(ArrayIndexOutOfBoundsException e) \n            {\n         System.out.print(\"A\");         \n            }\n            catch(ArithmeticException e) \n            {      \n                System.out.print(\"B\");\n            }\n        }\n    }",
+    "a": 12345,
+    "b": "12345A",
+    "c": "12345B",
+    "d": "Compilation Error",
+    "ans": "c"
+  },
+  {
+    "S.no": 79,
+    "question": "Predict the output.\nclass exception_handling \n    {\n            static void throwexception() throws ArithmeticException \n            {        \n                System.out.print(\"0\");\n                throw new ArithmeticException (\"Exception\");\n            }\n            public static void main(String args[]) \n            {\n            try \n            {\n                throwexception();\n            }\n            catch (ArithmeticException e) \n            {\n                    System.out.println(\"A\");\n            }\n        }\n    }",
+    "a": "A",
+    "b": 0,
+    "c": "0A",
+    "d": "Exception",
+    "ans": "c"
+  },
+  {
+    "S.no": 80,
+    "question": "Which of these exceptions are always needed to be manually propagated?",
+    "a": "Error",
+    "b": "unchecked exceptions",
+    "c": "checked exceptions",
+    "d": "None",
+    "ans": "c"
+  },
+  {
+    "S.no": 81,
+    "question": "Which of these exceptions are propagated automatically in java?",
+    "a": "IOException",
+    "b": "NullPointerException",
+    "c": "ClassNotFoundException",
+    "d": "SQLException",
+    "ans": "b"
+  },
+  {
+    "S.no": 82,
+    "question": "Which is invalid statement in Exception handling in java?",
+    "a": "finally block can't throw exception",
+    "b": "try block can throw exception",
+    "c": "catch block can throw exception",
+    "d": "finally block can throw exception",
+    "ans": "a"
+  },
+  {
+    "S.no": 83,
+    "question": "Which are valid statements in Exception handling in java?",
+    "a": "Java exception handling allows us to use multiple catch block.",
+    "b": "Exception class handled in starting catch block must be subclass of Exception class handled in following catch blocks",
+    "c": "Either one of the multiple catch block will handle exception at time",
+    "d": "All",
+    "ans": "d"
+  },
+  {
+    "S.no": 84,
+    "question": "Which of these is not a good exception handling practice?",
+    "a": "Throw exceptions when the method cannot handle the exception, and more importantly, must be handled by the caller",
+    "b": "log the exception and bubble it",
+    "c": "Bubble the exception if the method cannot handle it.",
+    "d": "Throw the exception right away",
+    "ans": "b"
+  },
+  {
+    "S.no": 85,
+    "question": "Automatic resource management was introduced in which java version?",
+    "a": "java 5",
+    "b": "java 6",
+    "c": "java 7",
+    "d": "java 8",
+    "ans": "c"
+  },
+  {
+    "S.no": 86,
+    "question": "What is true about exception handling keyword throw in java",
+    "a": "throw is a keyword",
+    "b": "throw can be used to throw only one exception at time.",
+    "c": "throw is used inside method",
+    "d": "All",
+    "ans": "d"
+  },
+  {
+    "S.no": 87,
+    "question": "Which is invalid about throws in Exception handling in java?",
+    "a": "throws can propagate exception to calling method",
+    "b": "throws can be used to throw multiple exception at time.",
+    "c": "throws is used inside method to throw exception",
+    "d": "none of the mentioned",
+    "ans": "c"
+  },
+  {
+    "S.no": 88,
+    "question": "Which of these not a Error?",
+    "a": "VirtualMachineError",
+    "b": "ClassNotFoundError",
+    "c": "OutOfMemoryError",
+    "d": "IOError",
+    "ans": "b"
+  },
+  {
+    "S.no": 89,
+    "question": "What is invalid about java.lang.Error in java?",
+    "a": "Errors are abnormal conditions in application",
+    "b": "Error indicates some serious problems that our application should not try to catch",
+    "c": "Error is unchecked Exception",
+    "d": "Error is a subclass of Throwable",
+    "ans": "c"
+  },
+  {
+    "S.no": 90,
+    "question": "If superclass method throws unchecked exception then overridden method of subclass can throw",
+    "a": "Only subclasses of exception thrown by superclass method",
+    "b": "Can't throw any exception",
+    "c": "Any checked exception",
+    "d": "Any runtime exception",
+    "ans": "d"
+  },
+  {
+    "S.no": 91,
+    "question": "Which among the following best describes polymorphism?",
+    "a": "It is the ability for a message/data to be processed in more than one form",
+    "b": "It is the ability for a message/data to be processed in only 1 form",
+    "c": "It is the ability for many messages/data to be processed in one way",
+    "d": "It is the ability for undefined message/data to be processed in at least one way",
+    "ans": "a"
+  },
+  {
+    "S.no": 92,
+    "question": "It is the ability for a message/data to be processed in more than one form",
+    "a": "Inheritance",
+    "b": "Overloading",
+    "c": "Polymorphism",
+    "d": "Overriding",
+    "ans": "c"
+  },
+  {
+    "S.no": 93,
+    "question": "Which among the following can’t be used for polymorphism?",
+    "a": "Static member functions",
+    "b": "Member functions overloading",
+    "c": "Predefined operator overloading",
+    "d": "Constructor overloading",
+    "ans": "a"
+  },
+  {
+    "S.no": 94,
+    "question": "Which problem may arise if we use abstract class functions for polymorphism?",
+    "a": "All classes are converted as abstract class",
+    "b": "Derived class must be of abstract type",
+    "c": "All the derived classes must implement the undefined functions",
+    "d": "Derived classes can’t redefine the function",
+    "ans": "c"
+  },
+  {
+    "S.no": 95,
+    "question": "If 2 classes derive one base class and redefine a function of base class, also overload some operators inside class body. Among these two things of function and operator overloading, where is polymorphism used?",
+    "a": "Function overloading only",
+    "b": "Operator overloading only",
+    "c": "Both of these are using polymorphism",
+    "d": "Either function overloading or operator overloading because polymorphism can be applied only once in a program",
+    "ans": "d"
+  },
+  {
+    "S.no": 96,
+    "question": "A class which is declared with the ________ keyword is known as an abstract class in Java.",
+    "a": "abstract",
+    "b": "util",
+    "c": "extends",
+    "d": "None of the above",
+    "ans": "a"
+  },
+  {
+    "S.no": 97,
+    "question": "Abstract class can have constructors and static methods?",
+    "a": "TRUE",
+    "b": "FALSE",
+    "c": "Abstract class can have constructors but can not have static methods.",
+    "d": "Abstract class can not have constructors but can have static methods.",
+    "ans": "a"
+  },
+  {
+    "S.no": 98,
+    "question": "What is the syntax of abstract class in java?",
+    "a": "abstract A{}",
+    "b": "abstract class A",
+    "c": "abstract class A{}",
+    "d": "abstract class A[]",
+    "ans": "c"
+  },
+  {
+    "S.no": 99,
+    "question": "Which of these packages contains abstract keyword?",
+    "a": "java.lang",
+    "b": "java.util",
+    "c": "java.io",
+    "d": "java.system",
+    "ans": "a"
+  },
+  {
+    "S.no": 100,
+    "question": "Which of these is not a correct statement?",
+    "a": "Every class containing abstract method must be declared abstract",
+    "b": "Abstract class defines only the structure of the class not its implementation",
+    "c": "Abstract class can be initiated by new operator",
+    "d": "Abstract class can be inherited",
+    "ans": "c"
+  },
+  {
+    "S.no": 101,
+    "question": "What will be output for the folllowing code?\nabstract class Bank {\n\n  private abstract void withdraw(); // Line 1\n  abstract void deposit();\n  public void balance(){} //Line 2\n}\nclass office extends Bank{ // Line 3\n\n  void deposit() { // Line 4\n    // TODO Auto-generated method stub\n\n  }\n}",
+    "a": "Compilation error in Line 1(abstract method cannot be private)",
+    "b": "Compilation error in Line 2(abstract class cannot have concrete method)",
+    "c": "Compilation error in Line 3(abstract class cannot be extended)",
+    "d": "Compilation error in Line 4(deposit method should have public access modifier)",
+    "ans": "a"
+  },
+  {
+    "S.no": 102,
+    "question": "To successfully overload a method in Java, the method names must be ___.",
+    "a": "Same",
+    "b": "Different",
+    "c": "Same or different",
+    "d": "None",
+    "ans": "a"
+  },
+  {
+    "S.no": 103,
+    "question": "What is the process of defining two or more methods within same class that have same name but different parameters declaration?",
+    "a": "method overloading",
+    "b": "method overriding",
+    "c": "method hiding",
+    "d": "none of the mentioned",
+    "ans": "a"
+  },
+  {
+    "S.no": 104,
+    "question": "Which of these is correct about passing an argument by call-by-value process?",
+    "a": "Copy of argument is made into the formal parameter of the subroutine",
+    "b": "Reference to original argument is passed to formal parameter of the subroutine",
+    "c": "Copy of argument is made into the formal parameter of the subroutine and changes made on parameters of subroutine have effect on original argument",
+    "d": "Reference to original argument is passed to formal parameter of the subroutine and changes made on parameters of subroutine have effect on original argument",
+    "ans": "c"
+  },
+  {
+    "S.no": 105,
+    "question": "What is the use of final keyword in Java?",
+    "a": "When a class is made final, a sublcass of it can not be created.",
+    "b": "When a method is final, it can not be overridden.",
+    "c": "When a variable is final, it can be assigned value only once.",
+    "d": "All of the above",
+    "ans": "d"
+  },
+  {
+    "S.no": 106,
+    "question": "Predict the output of the following code\nclass Main {\n public static void main(String args[]){\n    final int i;\n    i = 20;\n    i = 30;\n    System.out.println(i);\n }\n}",
+    "a": 30,
+    "b": "Compiler error",
+    "c": "garbage value",
+    "d": 0,
+    "ans": "b"
+  },
+  {
+    "S.no": 107,
+    "question": "What is multithreaded programming?",
+    "a": "It’s a process in which two different processes run simultaneously",
+    "b": "It’s a process in which two or more parts of same process run simultaneously",
+    "c": "It’s a process in which many different process are able to access same information",
+    "d": "It’s a process in which a single process can access information from many sources",
+    "ans": "b"
+  },
+  {
+    "S.no": 108,
+    "question": "Thread priority in Java is?",
+    "a": "Integer",
+    "b": "Float",
+    "c": "double",
+    "d": "long",
+    "ans": "a"
+  },
+  {
+    "S.no": 109,
+    "question": "What will happen if two thread of the same priority are called to be processed simultaneously?",
+    "a": "Anyone will be executed first lexographically",
+    "b": "Both of them will be executed simultaneously",
+    "c": "None of them will be executed",
+    "d": "It is dependent on the operating system",
+    "ans": "d"
+  },
+  {
+    "S.no": 110,
+    "question": "Which of these statements is incorrect?",
+    "a": "By multithreading CPU idle time is minimized, and we can take maximum use of it",
+    "b": "By multitasking CPU idle time is minimized, and we can take maximum use of it",
+    "c": "Two thread in Java can have the same priority",
+    "d": "A thread can exist only in two states, running and blocked",
+    "ans": "d"
+  },
+  {
+    "S.no": 111,
+    "question": "What will be the output of the following Java code?\nclass multithreaded_programing\n    {\n        public static void main(String args[])\n        {\n            Thread t = Thread.currentThread();\n            System.out.println(t);        \n        }\n    }",
+    "a": "Thread[5,main]",
+    "b": "Thread[main,5]",
+    "c": "Thread[main,0]",
+    "d": "Thread[main,5,main]",
+    "ans": "d"
+  },
+  {
+    "S.no": 112,
+    "question": "What is the priority of the thread in the following Java Program?\n class multithreaded_programing \n    {\n        public static void main(String args[])\n        {\n            Thread t = Thread.currentThread();\n            System.out.println(t);        \n        }\n    }",
+    "a": 4,
+    "b": 5,
+    "c": 0,
+    "d": 1,
+    "ans": "b"
+  },
+  {
+    "S.no": 113,
+    "question": "In java multi-threading, a thread can be created by",
+    "a": "Extending Thread class",
+    "b": "Implementing Runnable interface",
+    "c": "using both a and b",
+    "d": "None",
+    "ans": "c"
+  },
+  {
+    "S.no": 114,
+    "question": "Which method is called internally by Thread start() method?",
+    "a": "execute()",
+    "b": "run()",
+    "c": "launch()",
+    "d": "main()",
+    "ans": "b"
+  },
+  {
+    "S.no": 115,
+    "question": "What is maximum thread priority in Java",
+    "a": 10,
+    "b": 12,
+    "c": 5,
+    "d": 8,
+    "ans": "a"
+  },
+  {
+    "S.no": 116,
+    "question": "Which method is used to check if a thread is running?",
+    "a": "isAlive()",
+    "b": "run ()",
+    "c": "alive ()",
+    "d": "keepAlive()",
+    "ans": "a"
+  },
+  {
+    "S.no": 117,
+    "question": "True statement about process and thread is/are",
+    "a": "If a child thread is crash entire process will crash",
+    "b": "Threads have their own memory stack",
+    "c": "Each process has different virtual space",
+    "d": "All of the above",
+    "ans": "d"
+  },
+  {
+    "S.no": 118,
+    "question": "Which method we implement from Runnable interface?",
+    "a": "Run ()",
+    "b": "Start ()",
+    "c": "Execute ()",
+    "d": "call ()",
+    "ans": "a"
+  },
+  {
+    "S.no": 119,
+    "question": "Which statement is true?",
+    "a": "A static method cannot be synchronized.",
+    "b": "If a class has synchronized code, multiple threads can still access the nonsynchronized code.",
+    "c": "Variables can be protected from concurrent access problems by marking them with the synchronized keyword.",
+    "d": "When a thread sleeps, it releases its locks",
+    "ans": "b"
+  },
+  {
+    "S.no": 120,
+    "question": "Can we use this keyword in static method?",
+    "a": "this keyword can be used in static method to access static variables only",
+    "b": "this keyword can't be used in static method",
+    "c": "this keyword can be used in static method",
+    "d": "none",
+    "ans": "b"
+  },
+  {
+    "S.no": 121,
+    "question": "Which class/set of classes can illustrate polymorphism in the following code? abstract class student\n{\n   public : int marks;\n   calc_grade();\n}\nclass topper:public student\n{\n    public : calc_grade()\n    { \n        return 10; \n    }\n};\nclass average:public student\n{ \n     public : calc_grade()\n     {\n         return 20; \n     }\n};\nclass failed{ int marks; };",
+    "a": "Only class student can show polymorphism",
+    "b": "Only class student and topper together can show polymorphism",
+    "c": "All class student, topper and average together can show polymorphism",
+    "d": "Class failed should also inherit class student for this code to work for polymorphism",
+    "ans": "c"
+  },
+  {
+    "S.no": 122,
+    "question": "What is the output of the following \nabstract class Bank \n{\n    private String bankName;\n    Bank(String bankName) \n    {\n        this.bankName = bankName;\n    }\n    public String getBankName() \n    {\n    return bankName;\n    }\n}\nclass office extends Bank {\n  office() {\n    super(\"Axis Bank\");\n  }\n  public static void main(String[] args) {\n    Bank bank = new office();\n    System.out.println(bank.getBankName());\n  }}",
+    "a": "Compilation error will occur because \"\"abstract class cannot have constructor\"",
+    "b": "Compilation error will occur because \"\"abstract class must have an abstract method\"",
+    "c": "Compilation error will occur while invoking the super class constructor",
+    "d": "Code will be compiled successfully",
+    "ans": "D"
+  },
+  {
+    "S.no": 123,
+    "question": "What is the output of the below Java program with multiple methods?\npublic class MethodOverloading1\n{\n  void show(int a, char b)\n  {\n    System.out.println(\"KING KONG\");\n  }\nvoid show(char a, int b)\n  {\n    System.out.println(\"JIM JAM\");\n  }\n  public static void main(String[] args)\n  {\n    MethodOverloading1 m = new MethodOverloading1();\n    m.show(10, 'A');\n    m.show('B', 10);\n  }\n}",
+    "a": "JIM JAM\nJIM JAM",
+    "b": "KING KONG\nKING KONG",
+    "c": "KING KONG\nJIM JAM",
+    "d": "compiler error",
+    "ans": "c"
+  },
+  {
+    "S.no": 124,
+    "question": "What is the output of the below Java program?\npublic class MethodOverloading2\n{\n  int info()\n  {\n    System.out.println(\"PLANE\");\n    return 0;\n  }\n  void info()\n  {\n    System.out.println(\"AIRPORT\");\n  }\n  public static void main(String[] args)\n  {\n    MethodOverloading2 m = new MethodOverloading2();\n    int a = m.info();\n  }\n}",
+    "a": "PLANE",
+    "b": "AIRPORT",
+    "c": "Compiler error",
+    "d": "None",
+    "ans": "c"
+  },
+  {
+    "S.no": 125,
+    "question": "What is the output of the below Java program with method overloading?\nclass Wood{ }\nclass SubWood extends Wood{ }\npublic class MethodOverloading3\n{\n  Wood display(int a)\n  {\n    System.out.println(\"PINE\");\n    return new Wood();\n  }\n  SubWood display()\n  {\n    System.out.println(\"TEAK\");\n    return new SubWood();\n  }\n  public static void main(String[] args)\n  {\n    MethodOverloading3 m = new MethodOverloading3();\n    m.display();\n  }\n}",
+    "a": "PINE",
+    "b": "TEAK",
+    "c": "Compiler error",
+    "d": "None",
+    "ans": "b"
+  },
+  {
+    "S.no": 126,
+    "question": "What is the output of the below Java program that tries to overload a method \"abs\"?\npublic class MyAbs\n{\n  static int abs(int a)\n  {\n    return a<0?-a:a;\n  }\n  static float abs(float b)\n  {\n    return b<0?-b:b;\n  }\n  static double abs(double c)\n  {\n    return c<0?-c:c;\n  }\n  public static void main(String[] args)\n  {\n    int a=-10;\n    float b=-4.56f;\n    double c=-10.123;\n    System.out.println(MyAbs.abs(a) + \", \" + MyAbs.abs(b) + \", \" + MyAbs.abs(c));\n  }\n}",
+    "a": "No output",
+    "b": "Compiler error",
+    "c": "10, 4.56, 10.123",
+    "d": "10, -4.56, -10.123",
+    "ans": "c"
+  },
+  {
+    "S.no": 127,
+    "question": "Find the output of the following code\nclass San\n{\n public void m1 (int i,float f)\n {\n  System.out.println(\" int float method\");\n }\n  public void m1(float f,int i);\n  {\n  System.out.println(\"float int method\");\n  }\n  public static void main(String[]args)\n  {\n    San s=new San();\n        s.m1(20,20);\n  }",
+    "a": "int float method",
+    "b": "float int method",
+    "c": "compile time error",
+    "d": "run time error",
+    "ans": "c"
+  },
+  {
+    "S.no": 128,
+    "question": "Find the output to the below code\n class overload \n    {\n        int x;\n  int y;\n        void add(int a) \n        {\n            x =  a + 1;\n        }\n        void add(int a, int b)\n        {\n            x =  a + 2;\n        }        \n    }    \n    class Overload_methods \n    {\n        public static void main(String args[])\n        {\n            overload obj = new overload();   \n            int a = 0;\n            obj.add(6);\n            System.out.println(obj.x);     \n        }\n   }",
+    "a": 5,
+    "b": 6,
+    "c": 7,
+    "d": 8,
+    "ans": "c"
+  },
+  {
+    "S.no": 129,
+    "question": "What is the output of the following code\nclass Bike10{  \n  final int speedlimit;//blank final variable  \n  Bike10(){  \n  speedlimit=70;  \n  System.out.println(speedlimit);  \n  }  \n  public static void main(String args[]){  \n    new Bike10();  \n }  \n}",
+    "a": 60,
+    "b": 70,
+    "c": "compile time error",
+    "d": "None of the above",
+    "ans": "b"
+  },
+  {
+    "S.no": 130,
+    "question": "Find the output for the following program\nclass Main { \n public static void main(String args[]){ \n   final int i; \n   i = 20; \n   System.out.println(i); \n } \n}",
+    "a": 20,
+    "b": "Compiler error",
+    "c": 0,
+    "d": "Garbage value",
+    "ans": "a"
+  },
+  {
+    "S.no": 131,
+    "question": "Number of threads in below java program is\npublic class ThreadExtended extends Thread {\n public void run() {\n  System.out.println(\"\\nThread is running now\\n\");\n }\n public static void main(String[] args) {\n  ThreadExtended threadE = new ThreadExtended();\n  threadE.start();\n }\n}",
+    "a": 0,
+    "b": 1,
+    "c": 2,
+    "d": 3,
+    "ans": "b"
+  },
+  {
+    "S.no": 132,
+    "question": "Predict the output of the following code\nclass newthread implements Runnable\n    {\n Thread t;\n newthread()\n        {\n     t = new Thread(this,\"My Thread\");\n     t.start();\n }\n public void run()\n        {\n     System.out.println(t);\n }\n    }\n    class multithreaded_programing\n    {\n        public static void main(String args[])\n        {\n            new newthread();        \n        }",
+    "a": "My Thread",
+    "b": "Thread[My Thread,5,main]",
+    "c": "Compilation Error",
+    "d": "Runtime Error",
+    "ans": "b"
+  },
+  {
+    "S.no": 133,
+    "question": "What is the output of this program?\nclass multithreaded_programing\n    {\n        public static void main(String args[])\n        {\n            Thread t = Thread.currentThread();\n            t.setName(\"New Thread\");\n            System.out.println(t);        \n        }\n    }",
+    "a": "Thread[5,main].",
+    "b": "Thread[New Thread,5].",
+    "c": "Thread[main,5,main].",
+    "d": "Thread[New Thread,5,main].",
+    "ans": "d"
+  },
+  {
+    "S.no": 134,
+    "question": "What is the priority of the thread in output of this program?\n class multithreaded_programing\n    {\n        public static void main(String args[])\n        {\n            Thread t = Thread.currentThread();\n            t.setName(\"New Thread\");\n            System.out.println(t.getName());        \n        }\n    }",
+    "a": "main",
+    "b": "Thread",
+    "c": "New Thread",
+    "d": "Thread[New Thread,5,main].",
+    "ans": "c"
+  },
+  {
+    "S.no": 135,
+    "question": "What is true about threading?",
+    "a": "run() method calls start() method and runs the code",
+    "b": "run() method creates new thread",
+    "c": "run() method can be called directly without start() method being called",
+    "d": "start() method creates new thread and calls code written in run() method",
+    "ans": "d"
+  },
+  {
+    "S.no": 136,
+    "question": "Which of these class is superclass of String and StringBuffer class?",
+    "a": "java.util",
+    "b": "java.lang",
+    "c": "ArrayList",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "S.no": 137,
+    "question": "Which of these method of class String is used to extract a single character from a String object?",
+    "a": "CHARAT()",
+    "b": "charat()",
+    "c": "charAt()",
+    "d": "ChatAt()",
+    "ans": "c"
+  },
+  {
+    "S.no": 138,
+    "question": "Which of the following statements are incorrect?",
+    "a": "String is a class",
+    "b": "Strings in java are mutable",
+    "c": "Every string is an object of class String",
+    "d": "Java defines a peer class of String, called StringBuffer, which allows string to be altered",
+    "ans": "b"
+  },
+  {
+    "S.no": 139,
+    "question": "Which of these constructors is used to create an empty String object?",
+    "a": "String()",
+    "b": "String(void)",
+    "c": "String(0)",
+    "d": "None of the mentioned",
+    "ans": "a"
+  },
+  {
+    "S.no": 140,
+    "question": "Which of these type parameters is used for a generic class to return and accept a number?",
+    "a": "K",
+    "b": "N",
+    "c": "T",
+    "d": "V",
+    "ans": "b"
+  },
+  {
+    "S.no": 141,
+    "question": "Which of the following is incorrect statement regarding the use of generics and parameterized types in Java?",
+    "a": "Generics provide type safety by shifting more type checking responsibilities to the compiler",
+    "b": "Generics and parameterized types eliminate the need for down casts when using Java Collections",
+    "c": "When designing your own collections class (say, a linked list), generics and parameterized types allow you to achieve type safety with just a single class definition as opposed to defining multiple classes",
+    "d": "All of the mentioned",
+    "ans": "c"
+  },
+  {
+    "S.no": 142,
+    "question": "Which of the following allows us to call generic methods as a normal method?",
+    "a": "Type Interface",
+    "b": "Interface",
+    "c": "Inner class",
+    "d": "All of the mentioned",
+    "ans": "a"
+  },
+  {
+    "S.no": 143,
+    "question": "Why are generics used?",
+    "a": "Generics make code more fast",
+    "b": "Generics make code more optimised and readable",
+    "c": "Generics add stability to your code by making more of your bugs detectable at compile time",
+    "d": "Generics add stability to your code by making more of your bugs detectable at a runtime",
+    "ans": "c"
+  },
+  {
+    "S.no": 144,
+    "question": "What are generic methods?",
+    "a": "Generic methods are the methods defined in a generic class",
+    "b": "Generic methods are the methods that extend generic class methods",
+    "c": "Generic methods are methods that introduce their own type parameters",
+    "d": "eneric methods are methods that take void parameters",
+    "ans": "c"
+  },
+  {
+    "S.no": 145,
+    "question": "Which of these is an correct way of defining generic method?",
+    "a": "<T1, T2, …, Tn> name(T1, T2, …, Tn) { /* … */ }",
+    "b": "public <T1, T2, …, Tn> name<T1, T2, …, Tn> { /* … */ }",
+    "c": "class <T1, T2, …, Tn> name[T1, T2, …, Tn] { /* … */ }",
+    "d": "<T1, T2, …, Tn> name{T1, T2, …, Tn} { /* … */ }",
+    "ans": "b"
+  },
+  {
+    "S.no": 146,
+    "question": "Which of the following cannot be Type parameterized?",
+    "a": "Overloaded Methods",
+    "b": "Generic methods",
+    "c": "Class methods",
+    "d": "Overriding methods",
+    "ans": "a"
+  },
+  {
+    "S.no": 147,
+    "question": "Which collection allows indexed access to its elements, but its methods are not synchronized?",
+    "a": "HashSet",
+    "b": "ArrayList",
+    "c": "Vector",
+    "d": "TreeMap",
+    "ans": "b"
+  },
+  {
+    "S.no": 148,
+    "question": "Can elements of a Set be traversed without using Iterator?",
+    "a": "Yes",
+    "b": "No",
+    "c": "",
+    "d": "",
+    "ans": "a"
+  },
+  {
+    "S.no": 149,
+    "question": "Elements of which of the collection can be traversed using Enumeration?",
+    "a": "ArrayList",
+    "b": "Vector",
+    "c": "HashSet",
+    "d": "TreeMap",
+    "ans": "b"
+  },
+  {
+    "S.no": 150,
+    "question": "Which method is used by the contains() method of a list to search an element?",
+    "a": "equals()",
+    "b": "hashCode()",
+    "c": "compareTo()",
+    "d": "Both equals() & hashCode()",
+    "ans": "a"
+  },
+  {
+    "S.no": 151,
+    "question": "What will be the output of the following class?\n\nimport java.util.*; \nclass A\n{\n public static void main(String[] args)\n{\n HashSet<String> set=new HashSet<String>();\n set.add(null);\n set.add(\"One\");\n for(String s: set)\n   System.out.println(s); \n}\n}",
+    "a": "NullPointerException",
+    "b": "null, One",
+    "c": "One",
+    "d": null,
+    "ans": "b"
+  },
+  {
+    "S.no": 152,
+    "question": "Which of the following collection is not of Iterable type?",
+    "a": "ArrayList",
+    "b": "Vector",
+    "c": "TreeSet",
+    "d": "HashMap",
+    "ans": "d"
+  },
+  {
+    "S.no": 153,
+    "question": "Each tree based collection assumes its elements to be of --- type?",
+    "a": "Serializable",
+    "b": "Comparable",
+    "c": "Comparator",
+    "d": "Sortable",
+    "ans": "b"
+  },
+  {
+    "S.no": 154,
+    "question": "What will be the result of the following statement?TreeSet set = Collections.singleton(\"one\");",
+    "a": "A singleton set will be created.",
+    "b": "ClassCastException will be thrown",
+    "c": "The statement will not compile",
+    "d": "None of the above",
+    "ans": "c"
+  },
+  {
+    "S.no": 155,
+    "question": "What will be the output of the following class?                            import java.util.*; \nclass B\n{\n public static void main(String[] args)\n{\n ArrayList<String> list=new ArrayList<String>();\n list.add(\"One\");\n list.add(\"Two\");\n Collections.unmodifiableList(list);\n list.add(\"Three\");\n for(String s: list)\n   System.out.println(s); \n}\n}",
+    "a": "UnsupportedOperationException will be thrown",
+    "b": "One, Two, Three",
+    "c": "One, Two",
+    "d": "One",
+    "ans": "b"
+  },
+  {
+    "S.no": 156,
+    "question": "Which method of the Iterator throws ConcurrentModificationException?",
+    "a": "hasNext()",
+    "b": "next()",
+    "c": "remove()",
+    "d": "delete()",
+    "ans": "b"
+  },
+  {
+    "S.no": 157,
+    "question": "Which of these methods deletes all the elements from invoking collection?",
+    "a": "clear()",
+    "b": "reset()",
+    "c": "delete()",
+    "d": "refresh()",
+    "ans": "a"
+  },
+  {
+    "S.no": 158,
+    "question": "What is Collection in Java?",
+    "a": "A group of objects",
+    "b": "A group of classes",
+    "c": "A group of interfaces",
+    "d": "None of the mentioned",
+    "ans": "a"
+  },
+  {
+    "S.no": 159,
+    "question": "What will be the output of the following Java program?\n\n    import java.util.*;\n    class Array \n    {\n        public static void main(String args[]) \n        {\n            int array[] = new int [5];\n            for (int i = 5; i > 0; i--)\n                array[5-i] = i;\n            Arrays.fill(array, 1, 4, 8);\n            for (int i = 0; i < 5 ; i++)\n                System.out.print(array[i]);\n        }\n    }",
+    "a": 12885,
+    "b": 12845,
+    "c": 58881,
+    "d": 54881,
+    "ans": "c"
+  },
+  {
+    "S.no": 160,
+    "question": "What will be the output of the following Java program?\n\n    import java.util.*;\n    class Bitset \n    {\n        public static void main(String args[]) \n        {\n            BitSet obj = new BitSet(5);\n            for (int i = 0; i < 5; ++i)\n                obj.set(i);\n            obj.clear(2);\n            System.out.print(obj);\n        }\n    }",
+    "a": "{0, 1, 3, 4}",
+    "b": "{0, 1, 2, 4}",
+    "c": "{0, 1, 2, 3, 4}",
+    "d": "{0, 0, 0, 3, 4}",
+    "ans": "a"
+  },
+  {
+    "S.no": 161,
+    "question": "Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?",
+    "a": "java.lang.String",
+    "b": "java.lang.Double",
+    "c": "java.lang.StringBuffer",
+    "d": "java.lang.Character",
+    "ans": "c"
+  },
+  {
+    "S.no": 162,
+    "question": "Which collection class allows you to grow or shrink its size and provides indexed access to its elements, but whose methods are not synchronized?",
+    "a": "java.util.HashSet",
+    "b": "java.util.LinkedHashSet",
+    "c": "java.util.List",
+    "d": "java.util.ArrayList",
+    "ans": "d"
+  },
+  {
+    "S.no": 163,
+    "question": "You need to store elements in a collection that guarantees that no duplicates are stored and all elements can be accessed in natural order. Which interface provides that capability?",
+    "a": "java.util.Map",
+    "b": "java.util.Set",
+    "c": "java.util.List",
+    "d": "java.util.Collection",
+    "ans": "b"
+  },
+  {
+    "S.no": 164,
+    "question": "hich interface does java.util.Hashtable implement?",
+    "a": "Java.util.Map",
+    "b": "Java.util.List",
+    "c": "Java.util.HashTable",
+    "d": "Java.util.Collection",
+    "ans": "a"
+  },
+  {
+    "S.no": 165,
+    "question": "Which collection class allows you to associate its elements with key values, and allows you to retrieve objects in FIFO (first-in, first-out) sequence?",
+    "a": "java.util.ArrayList",
+    "b": "java.util.LinkedHashMap",
+    "c": "java.util.HashMap",
+    "d": "java.util.TreeMap",
+    "ans": "b"
+  },
+  {
+    "S.no": 166,
+    "question": "public class foo \n{\n    public static void main(String[]args)throws Exception \n    {\n        java.io.PrintWriter out = new java.io.PrintWriter(); \n        new java.io.OutputStreamWriter(System.out,true); \n        out.println(\"Hello\"); \n    } \n}\nWhat line of code should replace the missing statement to make this program compile?",
+    "a": "No statement required.",
+    "b": "import java.io.*;",
+    "c": "include java.io.*;",
+    "d": "import java.io.PrintWriter;",
+    "ans": "a"
+  },
+  {
+    "S.no": 167,
+    "question": "What would be the behaviour if this() and super() used in a method?",
+    "a": "Runtime error",
+    "b": "Throws exception",
+    "c": "compile time error",
+    "d": "Runs successfully",
+    "ans": "c"
+  },
+  {
+    "S.no": 168,
+    "question": "What is false about constructor?",
+    "a": "Constructors cannot be synchronized in Java",
+    "b": "Java does not provide default copy constructor",
+    "c": "Constructor can have a return type",
+    "d": "“this” and “super” can be used in a constructor",
+    "ans": "c"
+  },
+  {
+    "S.no": 169,
+    "question": "What will be the output of the following Java program?\n\n    class string_demo \n    {\n        public static void main(String args[])\n        {\n            String obj = \"I\" + \"like\" + \"Java\";   \n            System.out.println(obj);     \n        }\n   }",
+    "a": "I",
+    "b": "like",
+    "c": "Java",
+    "d": "IlikeJava",
+    "ans": "d"
+  },
+  {
+    "S.no": 170,
+    "question": "What would be behaviour if the constructor has a return type?",
+    "a": "Compilation error",
+    "b": "Runtime error",
+    "c": "Compilation and runs successfully",
+    "d": "Only String return type is allowed",
+    "ans": "a"
+  },
+  {
+    "S.no": 171,
+    "question": "Which of the following operators can operate on a boolean variable?\n\n 1. &&\n\n 2. ==\n\n 3. ?:\n\n 4. +=",
+    "a": "3 & 2",
+    "b": "1 & 4",
+    "c": "1, 2 & 4",
+    "d": "1, 2 & 3",
+    "ans": "d"
+  },
+  {
+    "S.no": 172,
+    "question": "Which of these operators can skip evaluating right hand operand?",
+    "a": "!",
+    "b": "|",
+    "c": "&",
+    "d": "&&",
+    "ans": "d"
+  },
+  {
+    "S.no": 173,
+    "question": "Which of these statement is correct?",
+    "a": "true and false are numeric values 1 and 0.",
+    "b": "true and false are numeric values 0 and 1.",
+    "c": "true is any non zero value and false is 0.",
+    "d": "true and false are non numeric values.",
+    "ans": "d"
+  },
+  {
+    "S.no": 174,
+    "question": "What is the value returned by unction compareTo() if the invoking string is less than the string compared?",
+    "a": "zero",
+    "b": "value less than zero",
+    "c": "value greater than zero",
+    "d": "None of the mentioned",
+    "ans": "b"
+  },
+  {
+    "S.no": 175,
+    "question": "Which of these method of class String is used to check weather a given object starts with a particular string literal?",
+    "a": "startsWith()",
+    "b": "endsWith()",
+    "c": "Starts()",
+    "d": "ends()",
+    "ans": "a"
+  },
+  {
+    "S.no": 176,
+    "question": "Which of these method of class String is used to remove leading and trailing whitespaces?",
+    "a": "startsWith()",
+    "b": "trim()",
+    "c": "Trim()",
+    "d": "doTrim()",
+    "ans": "b"
+  },
+  {
+    "S.no": 177,
+    "question": "What will be the output of the following Java program?\n\n    class String_demo \n    {\n        public static void main(String args[])\n        {\n            char chars[] = {'a', 'b', 'c'};\n            String s = new String(chars);\n            System.out.println(s);\n        }\n   }",
+    "a": "a",
+    "b": "b",
+    "c": "c",
+    "d": "abc",
+    "ans": "d"
+  },
+  {
+    "S.no": 178,
+    "question": "What will be the output of the following Java program?\n\n    class String_demo \n    {\n        public static void main(String args[])\n        {\n            int ascii[] = { 65, 66, 67, 68};\n            String s = new String(ascii, 1, 3);\n            System.out.println(s);\n        }\n   }",
+    "a": "ABC",
+    "b": "BCD",
+    "c": "CDA",
+    "d": "ABCD",
+    "ans": "b"
+  },
+  {
+    "S.no": 179,
+    "question": "What will be the output of the following Java program?\n\n    class String_demo \n    {\n        public static void main(String args[])\n        {\n            char chars[] = {'a', 'b', 'c'};\n            String s = new String(chars);\n            String s1 = \"abcd\";\n            int len1 = s1.length();\n            int len2 = s.length();\n            System.out.println(len1 + \" \" + len2);\n        }\n   }",
+    "a": "3 0",
+    "b": "0 3",
+    "c": "3 4",
+    "d": "4 3",
+    "ans": "d"
+  }
+]
