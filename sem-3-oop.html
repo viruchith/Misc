@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>OOP - Units 1,2,3,4</title>
+    <style>
+        body {
+            font-size: large;
+            background-color: #cfcfcf;
+        }
+
+        #q-box {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        #search {
+            width: 50%;
+            box-shadow: 10px 10px 8px #888888;
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <center>
+        <h1>OOP - Units 1,2,3,4</h1>
+    </center>
+    <br>
+    <hr>
+    <br>
+    <div id="q-box">
+        <ol id="q-list" start="1">
+        </ol>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/viruchith/Misc@71d6757/sem-3-oop.json"
+        integrity="sha512-pdCVFUWsxl1A4g0uV6fyJ3nrnTGeWnZN2Tl/56j45UvZ1OMdm9CIbctuIHj+yBIRTUUyv6I9+OivXj4i0LPEYA=="
+        crossorigin="anonymous"></script>
+    <script>
+
+        function markAnswer(opt, ans, optCode) {
+            if (optCode == ans) {
+                return "<li><mark><b>" + opt + "</b></mark></li>";
+            } else {
+                return "<li>" + opt + "</li>";
+            }
+        }
+        $.get("https://cdn.jsdelivr.net/gh/viruchith/Misc@434b831/sem-3-oop.json", function (data) {
+            jQuery.each(data, function () {
+                var qans = "<div class='quest'><li>" + this.question +
+                    "</li><ol type='a' class='options'>" + markAnswer(this.a, this.ans, 'a') +
+                    markAnswer(this.b, this.ans, 'b') + markAnswer(this.c, this.ans, 'c') + markAnswer(
+                        this.d, this.ans, 'd') + "</ol></div><br>";
+                $("#q-list").append(qans);
+            });
+        });
+
+        $(document).ready(function () {
+            $("#search").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#q-list .quest").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+
+        function toPdf() {
+            var element = document.getElementById("q-list");
+            var opt = {
+            margin:1,
+            filename: 'SEM-3-CA.pdf',
+            image: { type: 'jpeg', quality:1 },
+            html2canvas: { scale: 2 }
+            };
+            html2pdf(element,opt); 
+        }
+    </script>
+</body>
+</html>
