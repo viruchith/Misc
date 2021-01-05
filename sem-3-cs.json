@@ -1,0 +1,1442 @@
+[
+  {
+    "question": "A complete communication system must include:",
+    "a": "a transmitter and receiver",
+    "b": "a transmitter, a receiver, and a channel",
+    "c": "a transmitter, a receiver, and a spectrum analyzer",
+    "d": "a multiplexer, a demultiplexer, and a channel",
+    "ans": "c"
+  },
+  {
+    "question": "The bandwidth required for a modulated carrier depends on:",
+    "a": "the carrier frequency",
+    "b": "the signal-to-noise ratio",
+    "c": "the signal-plus-noise to noise ratio",
+    "d": "the baseband frequency range",
+    "ans": "d"
+  },
+  {
+    "question": "When two or more signals share a common channel, it is called:",
+    "a": "sub-channeling",
+    "b": "signal switching",
+    "c": "SINAD",
+    "d": "multiplexing",
+    "ans": "d"
+  },
+  {
+    "question": "The baseband bandwidth for a voice-grade (telephone) signal is:",
+    "a": "approximately 3 kHz",
+    "b": "20 Hz to 15,000 Hz",
+    "c": "at least 5 kHz",
+    "d": "none of the above",
+    "ans": "a"
+  },
+  {
+    "question": "Noise in a communication system originates in:",
+    "a": "the sender",
+    "b": "the receiver",
+    "c": "the channel",
+    "d": "all of the above",
+    "ans": "d"
+  },
+  {
+    "question": "“Man-made” noise can come from:",
+    "a": "equipment that sparks",
+    "b": "temperature",
+    "c": "static",
+    "d": "all of the above",
+    "ans": "a"
+  },
+  {
+    "question": "Modulation is done in _________",
+    "a": "Transmitter",
+    "b": "Radio receiver",
+    "c": "Between transmitter and radio receiver",
+    "d": "None of the above",
+    "ans": "a"
+  },
+  {
+    "question": "The ratio between the modulating signal voltage and the carrier voltage is called _________",
+    "a": "Amplitude modulation",
+    "b": "Modulation frequency",
+    "c": "Modulation index",
+    "d": "Ratio of Modulation",
+    "ans": "c"
+  },
+  {
+    "question": "When does under-modulation occur?",
+    "a": "Modulating signal voltage > Carrier voltage",
+    "b": "Modulating signal voltage = Carrier voltage",
+    "c": "Modulating signal voltage < Carrier voltage",
+    "d": "Modulating signal voltage = 0",
+    "ans": "a"
+  },
+  {
+    "question": "What is the role of channel in communication system?",
+    "a": "acts as a medium to send message signals from transmitter to receiver",
+    "b": "converts one form of signal to other",
+    "c": "allows mixing of signals",
+    "d": "helps to extract original signal from incoming signal",
+    "ans": "a"
+  },
+  {
+    "question": "The wavelength of a radio signal is:",
+    "a": "equal to f / c",
+    "b": "equal to c /λ",
+    "c": "equal to c/f",
+    "d": "how far the signal can travel without distortion",
+    "ans": "c"
+  },
+  {
+    "question": "The part, or parts, of a sinusoidal carrier that can be modulated are:",
+    "a": "its amplitude",
+    "b": "its amplitude and frequency",
+    "c": "its amplitude, frequency, and direction",
+    "d": "its amplitude, frequency, and phase angle",
+    "ans": "d"
+  },
+  {
+    "question": "Demodulation is done in _________",
+    "a": "Receiving antenna",
+    "b": "Transmitter",
+    "c": "Radio receiver",
+    "d": "Transmitting antenna",
+    "ans": "c"
+  },
+  {
+    "question": "When the modulating signal controls the frequency of the carrier, we get_________",
+    "a": "Phase modulation",
+    "b": "Amplitude modulation",
+    "c": "Frequency modulation",
+    "d": "May be any one of the above",
+    "ans": "c"
+  },
+  {
+    "question": "Modulation refers to a low-frequency signal controlling the_________",
+    "a": "Amplitude of the carrier",
+    "b": "Frequency of the carrier",
+    "c": "Phase of the carrier",
+    "d": "May be any of the above",
+    "ans": "d"
+  },
+  {
+    "question": "In amplitude modulation, which among the following is constant?",
+    "a": "Amplitude",
+    "b": "Frequency",
+    "c": "Wave length",
+    "d": "Time period",
+    "ans": "b"
+  },
+  {
+    "question": "Which of the following is constant in the case of frequency modulation?",
+    "a": "Modulation",
+    "b": "Wavelength",
+    "c": "Amplitude",
+    "d": "Frequency",
+    "ans": "c"
+  },
+  {
+    "question": "The process of recovering information signal from received carrier is known as",
+    "a": "Demodulation",
+    "b": "Modulation",
+    "c": "Demultiplexing",
+    "d": "Sampling",
+    "ans": "a"
+  },
+  {
+    "question": "SSB is a technique of ________________",
+    "a": "Amplitude Modulation",
+    "b": "Frequency Modulation",
+    "c": "Phase Modulation",
+    "d": "Digital Modulation",
+    "ans": "a"
+  },
+  {
+    "question": "Thermal noise is independent of",
+    "a": "bandwidth",
+    "b": "temperature",
+    "c": "centre frequency",
+    "d": "Boltzmann's constant",
+    "ans": "a"
+  },
+  {
+    "question": "The undesired randomly varying electrical signals introduced with useful message signal during the process of communication are called _________",
+    "a": "crosstalk",
+    "b": "interference",
+    "c": "distortion",
+    "d": "noise",
+    "ans": "d"
+  },
+  {
+    "question": "Flicker noise is dominant at",
+    "a": "high frequency",
+    "b": "low frequency",
+    "c": "mid frequency",
+    "d": "all frequencies",
+    "ans": "b"
+  },
+  {
+    "question": "The mean square noise voltage of Thermal noise is given by",
+    "a": "4KTBR",
+    "b": "2KTBR",
+    "c": "4KTR",
+    "d": "2KTR",
+    "ans": "c"
+  },
+  {
+    "question": "The distance that the wave travels in one cycle is called as",
+    "a": "Displacement",
+    "b": "Wavelength",
+    "c": "Cycle length",
+    "d": "Cycle amplitude",
+    "ans": "b"
+  },
+  {
+    "question": "The portion of the electromagnetic spectrum occupied by a signal is called ________",
+    "a": "Signal spectrum",
+    "b": "Frequency width",
+    "c": "Bandwidth",
+    "d": "Signal strength",
+    "ans": "c"
+  },
+  {
+    "question": "The process of making the signal more compatible with the medium is called as",
+    "a": "Modulation",
+    "b": "Transmission",
+    "c": "Encrypting",
+    "d": "Multiplexing",
+    "ans": "a"
+  },
+  {
+    "question": "The information signal is otherwise referred to as ___________",
+    "a": "Digital signal",
+    "b": "Analog signal",
+    "c": "Baseband signal",
+    "d": "Broadband signal",
+    "ans": "d"
+  },
+  {
+    "question": "What is the component that converts an electrical signal into a signal suitable for transmission in a given medium called?",
+    "a": "Transmitter",
+    "b": "Receiver",
+    "c": "Amplifier",
+    "d": "Duplexer",
+    "ans": "a"
+  },
+  {
+    "question": "The number of cycles per second is known as",
+    "a": "amplitude",
+    "b": "phase",
+    "c": "spectrum",
+    "d": "Frequency",
+    "ans": "d"
+  },
+  {
+    "question": "Thermal noise is also known as",
+    "a": "Johnson noise",
+    "b": "Flicker noise",
+    "c": "Shot noise",
+    "d": "Burst noise",
+    "ans": "a"
+  },
+  {
+    "question": "Thermal noise is generated in:",
+    "a": "transistors and diodes",
+    "b": "resistors",
+    "c": "copper wire",
+    "d": "all of the above",
+    "ans": "d"
+  },
+  {
+    "question": "Shot noise is generated in:",
+    "a": "transistors and diodes",
+    "b": "resistors",
+    "c": "copper wire",
+    "d": "none of the above",
+    "ans": "a"
+  },
+  {
+    "question": "The power density of “flicker” noise is:",
+    "a": "the same at all frequencies",
+    "b": "greater at high frequencies",
+    "c": "greater at low frequencies",
+    "d": "the same as “white” noise",
+    "ans": "a"
+  },
+  {
+    "question": "Signal-to-Noise ratio is calculated as:",
+    "a": "signal voltage divided by noise voltage",
+    "b": "signal power divided by noise power",
+    "c": "first add the signal power to the noise power, then divide by noise power",
+    "d": "none of the above",
+    "ans": "b"
+  },
+  {
+    "question": "Noise Figure is a measure of:",
+    "a": "how much noise is in a communications system",
+    "b": "how much noise is in the channel",
+    "c": "how much noise an amplifier adds to a signal",
+    "d": "signal-to-noise ratio in dB",
+    "ans": "d"
+  },
+  {
+    "question": "In India,_________ modulation is used for radio transmission",
+    "a": "Frequency",
+    "b": "Amplitude",
+    "c": "Phase",
+    "d": "None of the above",
+    "ans": "b"
+  },
+  {
+    "question": "In radio transmission, the medium of transmission is_________",
+    "a": "Space",
+    "b": "An antenna",
+    "c": "Cable",
+    "d": "None of the above",
+    "ans": "b"
+  },
+  {
+    "question": "Man made noise are _________ variations.",
+    "a": "Amplitude",
+    "b": "Frequency",
+    "c": "Phase",
+    "d": "Both phase and frequency",
+    "ans": "a"
+  },
+  {
+    "question": "Lower frequency is not suitable in_________",
+    "a": "Distance transmission",
+    "b": "Distance calculation",
+    "c": "Determination of wavelength",
+    "d": "Determination of frequency",
+    "ans": "a"
+  },
+  {
+    "question": "Which of the following represents the correct set of modulation classification?",
+    "a": "Frequency, time period",
+    "b": "Frequency, amplitude",
+    "c": "Amplitude, wavelength",
+    "d": "Wavelength, frequency",
+    "ans": "b"
+  },
+  {
+    "question": "Which of the following modulating signal voltage would cause over-modulation on a carrier voltage of 10v?",
+    "a": 9.5,
+    "b": 9.99,
+    "c": 10,
+    "d": 12,
+    "ans": "d"
+  },
+  {
+    "question": "The minimum height of antenna required for transmission in terms of ʎ is",
+    "a": "3ʎ⁄2",
+    "b": "ʎ⁄4",
+    "c": "2ʎ",
+    "d": "ʎ",
+    "ans": "b"
+  },
+  {
+    "question": "What is the wavelength of a signal with a frequency of 150Mhz?",
+    "a": "10m",
+    "b": "2m",
+    "c": "5m",
+    "d": "3m",
+    "ans": "b"
+  },
+  {
+    "question": "What is the bandwidth of a signal having 928Mhz and 902Mhz as its upper and lower frequencies?",
+    "a": "26Mhz",
+    "b": "26Hz",
+    "c": "1830Hz",
+    "d": "1830Mhz",
+    "ans": "a"
+  },
+  {
+    "question": "Find the wavelength for the frequency 2 MHz.",
+    "a": "150 m",
+    "b": "300 m",
+    "c": "450 m",
+    "d": "600 m",
+    "ans": "b"
+  },
+  {
+    "question": "Which of the following devices is used to generate AM waves?",
+    "a": "Square-law modulator",
+    "b": "Transmitter",
+    "c": "Reactance modulator",
+    "d": "Transducer",
+    "ans": "a"
+  },
+  {
+    "question": "What is the disadvantage of FM over AM?",
+    "a": "high modulating power is needed",
+    "b": "requires high output power",
+    "c": "large bandwidth required",
+    "d": "high noise is produced",
+    "ans": "c"
+  },
+  {
+    "question": "For amplitude modulation, carrier must be ____________",
+    "a": "greater than message signal",
+    "b": "less than message signal",
+    "c": "equal to the message signal",
+    "d": "none of the above",
+    "ans": "a"
+  },
+  {
+    "question": "A wave is modulated by two sin waves having modulation indices of 0.3 and 0.5. Find the total modulation index",
+    "a": 0.1,
+    "b": 0.7,
+    "c": 0.58,
+    "d": 0.35,
+    "ans": "c"
+  },
+  {
+    "question": "Singletone amplitude modulation ________",
+    "a": "consists of only one frequency component",
+    "b": "contains a large number of frequency components",
+    "c": "contains no frequency components",
+    "d": "contains infinite number of frequency components",
+    "ans": "a"
+  },
+  {
+    "question": "AM spectrum consists of ________",
+    "a": "Carrier frequency",
+    "b": "Upper sideband",
+    "c": "Lower sideband",
+    "d": "Carrier frequency with both upper and lower sideband",
+    "ans": "d"
+  },
+  {
+    "question": "Amplitude Modulated wave is ________",
+    "a": "Sum of carrier and modulating wave",
+    "b": "Product of carrier and modulating wave",
+    "c": "Difference of carrier and modulating wave",
+    "d": "Sum of carrier and its product with modulating wave",
+    "ans": "a"
+  },
+  {
+    "question": "SSB-SC-AM spectrum consists of ________",
+    "a": "Carrier frequency",
+    "b": "Carrier,USB",
+    "c": "both USB and LSB",
+    "d": "either LSB or USB",
+    "ans": "b"
+  },
+  {
+    "question": "For 100% modulation, power in each sideband is ________ of that of carrier?",
+    "a": "50%",
+    "b": "70%",
+    "c": "60%",
+    "d": "25%",
+    "ans": "d"
+  },
+  {
+    "question": "Overmodulation results in?",
+    "a": "Distortion",
+    "b": "Weakens signal",
+    "c": "Strengthens the signal",
+    "d": "provides immunity to noise",
+    "ans": "a"
+  },
+  {
+    "question": "For getting 100% modulation, carrier amplitude should ________",
+    "a": "exceed signal amplitude",
+    "b": "be equal to signal amplitude",
+    "c": "be lesser than signal amplitude",
+    "d": "be equal to 0",
+    "ans": "b"
+  },
+  {
+    "question": "Maximum power efficiency of an AM modulator is?",
+    "a": "25%",
+    "b": "33%",
+    "c": "66%",
+    "d": "100%",
+    "ans": "b"
+  },
+  {
+    "question": "What do you understand by the term SSB?",
+    "a": "Suppressed Side Band",
+    "b": "Single Side Band",
+    "c": "Suppressed Single Band",
+    "d": "Selected Single Band",
+    "ans": "b"
+  },
+  {
+    "question": "If we compared to the USB, the power in the LSB is ________",
+    "a": "one-fourth of USB",
+    "b": "half of USB",
+    "c": "same as USB",
+    "d": "twice of USB",
+    "ans": "c"
+  },
+  {
+    "question": "How many sidebands is produced with a single tone in an amplitude modulated system?",
+    "a": "One",
+    "b": "Two",
+    "c": "Three",
+    "d": "Four",
+    "ans": "b"
+  },
+  {
+    "question": "In Amplitude Modulation, the instantaneous values of the carrier amplitude changes in accordance with the amplitude and frequency variations of the modulating signal.",
+    "a": "TRUE",
+    "b": "FALSE",
+    "c": "",
+    "d": "",
+    "ans": "a"
+  },
+  {
+    "question": "What is the line connecting the positive and negative peaks of the carrier waveform called?",
+    "a": "Peak line",
+    "b": "Maximum amplitude ceiling",
+    "c": "Modulation index",
+    "d": "Envelope",
+    "ans": "d"
+  },
+  {
+    "question": "What is the reference line for the modulating signal?",
+    "a": "Zero line",
+    "b": "Carrier peak line",
+    "c": "Modulated peak line",
+    "d": "Un-modulated peak line",
+    "ans": "b"
+  },
+  {
+    "question": "Emitter modulator amplifier for Amplitude Modulation",
+    "a": "Operates in class A mode",
+    "b": "Has a low efficiency",
+    "c": "Output power is small",
+    "d": "All of the above",
+    "ans": "d"
+  },
+  {
+    "question": "What is the effect of distortion?",
+    "a": "Total information loss",
+    "b": "Error information",
+    "c": "Attenuated information",
+    "d": "Amplified information",
+    "ans": "b"
+  },
+  {
+    "question": "What is the circuit used for producing AM called?",
+    "a": "Modulator",
+    "b": "Transmitter",
+    "c": "Receiver",
+    "d": "Duplexer",
+    "ans": "a"
+  },
+  {
+    "question": "The ratio between the modulating signal voltage and the carrier voltage is called?",
+    "a": "Amplitude modulation",
+    "b": "Modulation frequency",
+    "c": "Modulation index",
+    "d": "Ratio of modulation",
+    "ans": "c"
+  },
+  {
+    "question": "Standard intermediate frequency used for AM receiver is",
+    "a": "455 MHz",
+    "b": "455 KHz",
+    "c": "455 Hz",
+    "d": "None of the above",
+    "ans": "b"
+  },
+  {
+    "question": "A modulation index of 0.5 would be same as",
+    "a": "0.5 of Modulation Depth",
+    "b": "1/2% of Modulation Depth",
+    "c": "5% of Modulation Depth",
+    "d": "50% of Modulation Depth",
+    "ans": "d"
+  },
+  {
+    "question": "For low level amplitude modulation, amplifier must be ________",
+    "a": "Class A amplifier",
+    "b": "Class C amplifier",
+    "c": "Class B amplifier",
+    "d": "Class D amplifier",
+    "ans": "b"
+  },
+  {
+    "question": "The ability of the receiver to select the wanted signals among the various incoming signals is termed as",
+    "a": "Sensitivity",
+    "b": "Selectivity",
+    "c": "Stability",
+    "d": "None of the above",
+    "ans": "b"
+  },
+  {
+    "question": "The modulation technique that uses the minimum channel bandwidth and transmitted power is",
+    "a": "FM",
+    "b": "DSB-SC",
+    "c": "VSB",
+    "d": "SSB",
+    "ans": "d"
+  },
+  {
+    "question": "Bandwidth required in SSB-SC signal is (fm is modulating frequency)",
+    "a": "2fm",
+    "b": "< 2fm",
+    "c": "> 2fm",
+    "d": "fm",
+    "ans": "d"
+  },
+  {
+    "question": "The factors that determine the sensitivity of super heterodyne receiver are",
+    "a": "Gain of the IF amplifier",
+    "b": "Noise figure of the receiver",
+    "c": "Gain of RF amplifier",
+    "d": "All of the above",
+    "ans": "d"
+  },
+  {
+    "question": "The amount of data transmitted for a given amount of time is called",
+    "a": "Bandwidth",
+    "b": "frequency",
+    "c": "noise",
+    "d": "Signal power",
+    "ans": "a"
+  },
+  {
+    "question": "The minimum channel Bandwidth is used by which modulation technique?",
+    "a": "VSB",
+    "b": "SSB-SC",
+    "c": "DSB-SC",
+    "d": "AM",
+    "ans": "b"
+  },
+  {
+    "question": "For getting 100% modulation, carrier amplitude should ________",
+    "a": "exceed signal amplitude",
+    "b": "be equal to signal amplitude",
+    "c": "be lesser than signal amplitude",
+    "d": "be equal to 0",
+    "ans": "b"
+  },
+  {
+    "question": "Calculate the bandwidth occupied by a DSB signal when the modulating frequency lies in the range from 100 Hz to 10KHz.",
+    "a": "28 KHz",
+    "b": "24.5 KHz",
+    "c": "38.6 KHz",
+    "d": "19.8 KHz",
+    "ans": "d"
+  },
+  {
+    "question": "The total power in an Amplitude Modulated signal if the carrier of an AM transmitter is 800 W and it is modulated 50 percent.",
+    "a": "850 W",
+    "b": "1000.8 KW",
+    "c": "750 W",
+    "d": "900 W",
+    "ans": "d"
+  },
+  {
+    "question": "A 1MHZ carrier is amplitude modulated by 400 Hz modulating signal to a depth of 50%. The modulated carrier power is 1 KW. Calculate the power of the unmodulated signal.",
+    "a": "1KW",
+    "b": "1.125KW",
+    "c": "1.5KW",
+    "d": "2KW",
+    "ans": "na"
+  },
+  {
+    "question": "Overmodulation results in ________________",
+    "a": "Distortion",
+    "b": "Weakens signal",
+    "c": "Strengthens the signal",
+    "d": "provides immunity to noise",
+    "ans": "a"
+  },
+  {
+    "question": "A transmitter supplies 8 KW to the antenna when unmodulated. Determine the total power radiated when modulated to 30%",
+    "a": "7.36 KW",
+    "b": "8.36KW",
+    "c": "8.1KW",
+    "d": "6.68KW",
+    "ans": "b"
+  },
+  {
+    "question": "What happens when the amplitude of the modulating signal is greater than the amplitude of the carrier?",
+    "a": "Decay",
+    "b": "Distortion",
+    "c": "Amplification",
+    "d": "Attenuation",
+    "ans": "b"
+  },
+  {
+    "question": "An unmodulated AM signal produces a current of 5.4 A. If the modulation is 100 percent,",
+    "a": "1458 W,",
+    "b": "729.25 W",
+    "c": "2187.5 W",
+    "d": "278 W",
+    "ans": "a"
+  },
+  {
+    "question": "An AM signal is represented by x(t) = (30 + 2Sin(700πt)) Cos(2πt x 102t)V. What is the value of modulation index?",
+    "a": 0.7,
+    "b": 0.066,
+    "c": 0.341,
+    "d": 0.916,
+    "ans": "b"
+  },
+  {
+    "question": "Calculate the depth of modulation when a transmitter radiates a signal of 9.8KW after modulation and 8KW without modulation of the signal.",
+    "a": "80%",
+    "b": "67%",
+    "c": "50%",
+    "d": "100%",
+    "ans": "b"
+  },
+  {
+    "question": "The tuned circuit associated with the IF amplifier operates at fixed centre frequency of ________",
+    "a": "455KHZ",
+    "b": "450KHZ",
+    "c": "45KHZ",
+    "d": "455HZ",
+    "ans": "a"
+  },
+  {
+    "question": "Calculate power in each sideband, if power of carrier wave is 176W and there is 60% modulation in amplitude modulated signal?",
+    "a": "13.36W",
+    "b": "52W",
+    "c": "67W",
+    "d": "15.84W",
+    "ans": "d"
+  },
+  {
+    "question": "A wave is modulated by two sin waves having modulation indices of 0.3 and 0.5. Find the total modulation index?",
+    "a": 0.1,
+    "b": 0.7,
+    "c": 0.58,
+    "d": 0.35,
+    "ans": "c"
+  },
+  {
+    "question": "What is the modulation index value if Vmax=5.2v and Vmin=1.1v?",
+    "a": 0.5,
+    "b": 0.65,
+    "c": 0.425,
+    "d": 0.14,
+    "ans": "b"
+  },
+  {
+    "question": "Which of the following are two most important classes of angle modulation?",
+    "a": "Amplitude modulation, frequency modulation",
+    "b": "Amplitude modulation, phase modulation",
+    "c": "Frequency modulation, phase modulation",
+    "d": "Single sideband amplitude modulation, phase modulation",
+    "ans": "c"
+  },
+  {
+    "question": "Frequency of the carrier is varies accordance with amplitude of modulating voltage and frequency  in",
+    "a": "Frequency Modulation",
+    "b": "Amplitude Modulation",
+    "c": "Both a and b",
+    "d": "Neither a nor b",
+    "ans": "a"
+  },
+  {
+    "question": "Which of the following are two methods for generating FM signal?",
+    "a": "Coherent method, noncoherent method",
+    "b": "Product detector, envelope detector",
+    "c": "Direct method, indirect method",
+    "d": "Slope detector, Zero crossing detector",
+    "ans": "c"
+  },
+  {
+    "question": "PLL in FM detection stands for ______",
+    "a": "Phase locked loop",
+    "b": "Programmable logic loop",
+    "c": "Phase locked logic",
+    "d": "Programmable locked loop",
+    "ans": "a"
+  },
+  {
+    "question": "FM can be generated using PM by _______ .",
+    "a": "Passing the modulating signal through integrator",
+    "b": "Passing the modulating signal through differentiator",
+    "c": "Using the pre-emphasis",
+    "d": "Using the de-emphasis",
+    "ans": "a"
+  },
+  {
+    "question": "NBFM stands for",
+    "a": "National Broadcast FM",
+    "b": "Non-Broadcast FM",
+    "c": "Near Band FM",
+    "d": "Narrowband FM",
+    "ans": "d"
+  },
+  {
+    "question": "Indentify the direct method of FM generation",
+    "a": "Armstrong method",
+    "b": "Foster seeley method",
+    "c": "bessel method",
+    "d": "varactor diode method",
+    "ans": "d"
+  },
+  {
+    "question": "PM can be generated using FM by _______ .",
+    "a": "Passing the modulating signal through integrator",
+    "b": "Passing the modulating signal through differentiator",
+    "c": "Using the pre-emphasis",
+    "d": "Using the de-emphasis",
+    "ans": "b"
+  },
+  {
+    "question": "Phase of the carrier is varies accordance with amplitude of modulating signal in",
+    "a": "Phase Modulation",
+    "b": "Amplitude Modulation",
+    "c": "Both a and b",
+    "d": "Neither a nor b",
+    "ans": "a"
+  },
+  {
+    "question": "In Frequency Modulation",
+    "a": "Amplitude of the carrier remains same",
+    "b": "Frequency of the carrier varies in accordance with the modulating signal",
+    "c": "The number of side bands are infinite",
+    "d": "All of the above",
+    "ans": "d"
+  },
+  {
+    "question": "In a receiver, distortion can occur in ________",
+    "a": "Mixer",
+    "b": "Detector",
+    "c": "IF amplifiers",
+    "d": "Either mixer or detector or IF amplifiers",
+    "ans": "d"
+  },
+  {
+    "question": "When aliasing will take place?",
+    "a": "Sampling signals less than Nyquist Rate",
+    "b": "Sampling signals more than Nyquist Rate",
+    "c": "Sampling signals equal to Nyquist Rate",
+    "d": "Sampling signals at a rate which is\n twice of Nyquist Rate",
+    "ans": "a"
+  },
+  {
+    "question": "Which statement is true for high level amplitude modulation?",
+    "a": "all RF amplifiers are of class A",
+    "b": "all RF amplifiers can be nonlinear",
+    "c": "minimum RF power is required",
+    "d": "maximum RF power is required",
+    "ans": "b"
+  },
+  {
+    "question": "Which statement is true for low level amplitude modulation?",
+    "a": "all RF amplifiers are of class A",
+    "b": "all RF amplifiers can be linear",
+    "c": "minimum RF power is required",
+    "d": "maximum RF power is required",
+    "ans": "b"
+  },
+  {
+    "question": "What is the full form of AFC?",
+    "a": "Amplitude to frequency conversion",
+    "b": "Automatic frequency conversion",
+    "c": "Automatic frequency control",
+    "d": "Audio frequency control",
+    "ans": "d"
+  },
+  {
+    "question": "Mixing is used in communication to ________",
+    "a": "raise the carrier frequency",
+    "b": "lower the carrier frequency",
+    "c": "to altered the deviation",
+    "d": "to change the carrier frequency to any \nrequired value",
+    "ans": "d"
+  },
+  {
+    "question": "On which factor the bandwidth required for a modulated carrier depends?",
+    "a": "baseband frequency range",
+    "b": "signal to noise ratio",
+    "c": "carrier frequency",
+    "d": "amplitude of carrier frequency",
+    "ans": "a"
+  },
+  {
+    "question": "FEC stands for _________",
+    "a": "Forward Error Correction",
+    "b": "Fixed Error Correction",
+    "c": "Forward Error Communication",
+    "d": "Fixed Error Communication",
+    "ans": "a"
+  },
+  {
+    "question": "Bandwidth of the frequency modulated sgnal based on Carson's rule can be",
+    "a": "2[δ +fm(Max)]HZ",
+    "b": "2δ HZ",
+    "c": "2fm(Max)]HZ",
+    "d": "4[δ +fm(Max)]HZ",
+    "ans": "a"
+  },
+  {
+    "question": "The Modulation index of PM is",
+    "a": "m=kEm",
+    "b": "m=k",
+    "c": "m=2kEm",
+    "d": "m=Em",
+    "ans": "a"
+  },
+  {
+    "question": "The modulation index for Narrowband FM",
+    "a": "Less than 0.5",
+    "b": "Less than 1",
+    "c": "Greater than 5",
+    "d": "Greater than 10",
+    "ans": "b"
+  },
+  {
+    "question": "Frequency Spectrum of Angle modulated wave can be analysed using",
+    "a": "Jordon function",
+    "b": "Carson's function",
+    "c": "Bessel function",
+    "d": "None of the answer",
+    "ans": "c"
+  },
+  {
+    "question": "The type FM used in mobile Communication",
+    "a": "Wideband FM",
+    "b": "Narrowband FM",
+    "c": "Both a and b",
+    "d": "None of the answer",
+    "ans": "a"
+  },
+  {
+    "question": "The type FM used in Broadcasting and entertainment",
+    "a": "Wideband FM",
+    "b": "Narrowband FM",
+    "c": "Both a and b",
+    "d": "None of the answer",
+    "ans": "a"
+  },
+  {
+    "question": "The Modulation which occupies more bandwidth",
+    "a": "Amplitude Modulation",
+    "b": "Frequency Modulation",
+    "c": "Both a and b",
+    "d": "Neither a nor b",
+    "ans": "b"
+  },
+  {
+    "question": "Infinite number of subbands are presents in____________moduation",
+    "a": "Frequency Modulation",
+    "b": "Amplitude Modulation",
+    "c": "Neither a nor b",
+    "d": "Both a and b",
+    "ans": "a"
+  },
+  {
+    "question": "The Modulation index of FM is",
+    "a": "m=kEm/ωm",
+    "b": "m=kEm",
+    "c": "m=kωm",
+    "d": "m=Em/ωm",
+    "ans": "a"
+  },
+  {
+    "question": "The modulation index for wideband FM",
+    "a": "Greater than 5",
+    "b": "Greater than 2",
+    "c": "Less than 1",
+    "d": "Greater than 10",
+    "ans": "d"
+  },
+  {
+    "question": "In AM following Components are present,",
+    "a": "only Sidebands",
+    "b": "Carrier,Two sidebands",
+    "c": "only carrier",
+    "d": "carrier and any one sideband",
+    "ans": "b"
+  },
+  {
+    "question": "WBFM stands for",
+    "a": "Wide Broadcast FM",
+    "b": "Wideover Broadcast FM",
+    "c": "Widein Band FM",
+    "d": "Wideband FM",
+    "ans": "d"
+  },
+  {
+    "question": "Advantage of using direct method for generation of FM signal is",
+    "a": "It gives high stability to FM signal frequency",
+    "b": "Distortion free FM signal is generated",
+    "c": "High power FM generation is possible",
+    "d": "None of the above",
+    "ans": "c"
+  },
+  {
+    "question": "In PM maximum Phase deviation takes place when",
+    "a": "Near the zero crossing of the modulating signal",
+    "b": "Modulating signal is at Positive and Negative Peaks",
+    "c": "Modulating signal is at Positive Peaks",
+    "d": "Modulating signal is at negative Peaks",
+    "ans": "a"
+  },
+  {
+    "question": "Pre emphasis is done",
+    "a": "For boosting of modulating signal voltage",
+    "b": "For modulating signals at higher frequencies",
+    "c": "In FM before modulation",
+    "d": "All of the above",
+    "ans": "d"
+  },
+  {
+    "question": "In FM maximum frequency deviation takes place when",
+    "a": "Near the zero crossing of the modulating signal",
+    "b": "Modulating signal is at Positive and Negative Peaks",
+    "c": "Modulating signal is at Positive Peaks",
+    "d": "Modulating signal is at negative Peaks",
+    "ans": "b"
+  },
+  {
+    "question": "Find the bandwidth of the modulating signal for the carrier signal 100 MHZ and maximum deviation is 75KHZ with highest audio frequency modulating the carrier is linited to 15KHZ.",
+    "a": "150KHZ",
+    "b": "170KHZ",
+    "c": "180KHZ",
+    "d": "200KHZ",
+    "ans": "c"
+  },
+  {
+    "question": "Calculate modulating index for the system includes Carrier is frequency modulated with sinisoidal signal of 2KHZ resulting on a maximum frequency deviation of 5KHZ.",
+    "a": 2.5,
+    "b": 3.5,
+    "c": 2,
+    "d": 1.5,
+    "ans": "a"
+  },
+  {
+    "question": "The _______________modulator used in remote tunning.",
+    "a": "hydrolic modulator",
+    "b": "Gunn modulator",
+    "c": "Varactor diode modulator",
+    "d": "None of the answer",
+    "ans": "c"
+  },
+  {
+    "question": "The disadvantage of direct method of FM generation is,",
+    "a": "can't reduce error",
+    "b": "can't achieve high frequency stability",
+    "c": "can't reduce amplitude",
+    "d": "can't reduce frequency",
+    "ans": "b"
+  },
+  {
+    "question": "____________ is the process of varying the total phase angle of a carrier wave in accordance with instantaneous value of the message signal, keeping amplitude of the carrier constant.",
+    "a": "Amplitude Modulation",
+    "b": "Delta Modulation",
+    "c": "Pulse Code Modulation",
+    "d": "Angle Modulation",
+    "ans": "d"
+  },
+  {
+    "question": "What is the two basic specifications of a receiver?",
+    "a": "sensitivity and selectivity",
+    "b": "superious response and tracking",
+    "c": "signal and noise",
+    "d": "number of convertors and number of IFs",
+    "ans": "a"
+  },
+  {
+    "question": "On which factor the bandwidth required for a modulated carrier depends?",
+    "a": "baseband frequency range",
+    "b": "signal to noise ratio",
+    "c": "carrier frequency",
+    "d": "amplitude of carrier frequency",
+    "ans": "a"
+  },
+  {
+    "question": "Find the modulating signal frequency for FM system occupies the bandwidth of 180KHZ, and maximum deviation is 75KHZ with carrier frequency 100MHZ.",
+    "a": "15KHZ",
+    "b": "17KHZ",
+    "c": "18KHZ",
+    "d": "20KHZ",
+    "ans": "a"
+  },
+  {
+    "question": "In the FM Receiver the carrier is suppressed in ________",
+    "a": "a mixer",
+    "b": "a frequency multiplier",
+    "c": "a transducer",
+    "d": "a balance modulator",
+    "ans": "d"
+  },
+  {
+    "question": "The frequency of local oscillator ________",
+    "a": "can be either below or above the RF frequency",
+    "b": "is below the RF frequency",
+    "c": "is above the RF frequency",
+    "d": "is fixed typically at 450KHz",
+    "ans": "a"
+  },
+  {
+    "question": "Calculate frequency deviation for the system includes the modulation index of 2.5 and  Carrier is frequency modulated with sinisoidal signal of 2KHZ.",
+    "a": "10KHZ",
+    "b": "5KHZ",
+    "c": "15KHZ",
+    "d": "25KHZ",
+    "ans": "b"
+  },
+  {
+    "question": "Advantage of using direct method for generation of FM signal is",
+    "a": "It gives high stability to FM signal frequency",
+    "b": "Distortion free FM signal is generated",
+    "c": "High power FM generation is possible",
+    "d": "None of the above",
+    "ans": "c"
+  },
+  {
+    "question": "Drawbacks of using direct method for generation of FM signal are",
+    "a": "Does not give high stability to FM signal frequency",
+    "b": "Distorted FM signal is generated due to harmonics of modulating signal",
+    "c": "Cannot be used for high power FM generation",
+    "d": "Both a and b",
+    "ans": "d"
+  },
+  {
+    "question": "Drawbacks of Tuned Radio Receiver are",
+    "a": "Oscillate at higher frequencies",
+    "b": "Selectivity is poor",
+    "c": "Bandwidth of the TRF receiver varies with incoming frequency",
+    "d": "All of the above",
+    "ans": "d"
+  },
+  {
+    "question": "Pre emphasis is done",
+    "a": "For boosting of modulating signal voltage",
+    "b": "For modulating signals at higher frequencies",
+    "c": "In FM before modulation",
+    "d": "All of the above",
+    "ans": "d"
+  },
+  {
+    "question": "De-emphasis is",
+    "a": "is restoring of original signal power",
+    "b": "is done at the detector output of the receiver",
+    "c": "is the inverse process of Pre emphasis",
+    "d": "All of the above",
+    "ans": "d"
+  },
+  {
+    "question": "Armstrong method is used for the generation of",
+    "a": "Direct FM",
+    "b": "Indirect FM",
+    "c": "SSB-SC",
+    "d": "DSB-SC",
+    "ans": "b"
+  },
+  {
+    "question": "Demodulation is done in ________",
+    "a": "Channel",
+    "b": "Receiver",
+    "c": "Receiving antenna",
+    "d": "Transducer",
+    "ans": "b"
+  },
+  {
+    "question": "The modulation techniques used to convert analog signal into digital signal are",
+    "a": "Pulse code modulation",
+    "b": "Delta modulation",
+    "c": "Adaptive delta modulation",
+    "d": "All of the above",
+    "ans": "a"
+  },
+  {
+    "question": "The sequence of operations in which PCM is done is",
+    "a": "Sampling, quantizing, encoding",
+    "b": "Quantizing, encoding, sampling",
+    "c": "Quantizing, sampling, encoding",
+    "d": "None of the above",
+    "ans": "a"
+  },
+  {
+    "question": "One of the disadvantages of PCM is",
+    "a": "It requires large bandwidth",
+    "b": "Very high noise",
+    "c": "Cannot be decoded easily",
+    "d": "All of the above",
+    "ans": "a"
+  },
+  {
+    "question": "In Delta modulation,",
+    "a": "One bit per sample is transmitted",
+    "b": "All the coded bits used for sampling are transmitted",
+    "c": "The step size is fixed",
+    "d": "Both a and c are correct",
+    "ans": "d"
+  },
+  {
+    "question": "Other name for PWM is",
+    "a": "Pulse code modulation",
+    "b": "pulse length modulation",
+    "c": "pulse duration modulation",
+    "d": "Both b & C",
+    "ans": "c"
+  },
+  {
+    "question": "Advantages of digital communication are",
+    "a": "Easy multiplexing",
+    "b": "Easy processing",
+    "c": "Reliable",
+    "d": "All of the mentioned",
+    "ans": "d"
+  },
+  {
+    "question": "What is necessary for digital communication?",
+    "a": "Precision timing",
+    "b": "Character synchronization",
+    "c": "All of the mentioned",
+    "d": "Frame synchronization",
+    "ans": "c"
+  },
+  {
+    "question": "Examples of digital communication are",
+    "a": "ISDN",
+    "b": "Modems",
+    "c": "All of the mentioned",
+    "d": "Classical telephony",
+    "ans": "c"
+  },
+  {
+    "question": "Pre emphasis is done before",
+    "a": "Before modulation",
+    "b": "Before transmission",
+    "c": "Before detection at receiver",
+    "d": "After detection at receiver",
+    "ans": "a"
+  },
+  {
+    "question": "FM signal is better than AM signal because",
+    "a": "Less immune to noise",
+    "b": "Less adjacent channel interference",
+    "c": "Amplitude limiters are used to avoid amplitude variations",
+    "d": "All of the above",
+    "ans": "d"
+  },
+  {
+    "question": "Sampling can be used in",
+    "a": "Audio",
+    "b": "Speech",
+    "c": "Video",
+    "d": "All of the mentioned",
+    "ans": "d"
+  },
+  {
+    "question": "Sampling can be done for functions varying in",
+    "a": "Space",
+    "b": "Time",
+    "c": "Space & Time",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "A PAM signal can be detected using",
+    "a": "Low pass filter",
+    "b": "High pass filter",
+    "c": "Band pass filter",
+    "d": "All pass filter",
+    "ans": "a"
+  },
+  {
+    "question": "A PWM signal can be generated by",
+    "a": "An astable multi vibrator",
+    "b": "A monostable multi vibrator",
+    "c": "Integrating a PPM signal",
+    "d": "Differentiating a PPM signal",
+    "ans": "b"
+  },
+  {
+    "question": "Sampling theorem is used for converting",
+    "a": "Continuous time signal to discrete",
+    "b": "Discrete to continuous time signal",
+    "c": "Continuous time signal to discrete & vice versa",
+    "d": "None of the mentioned",
+    "ans": "c"
+  },
+  {
+    "question": "In flat top sampling scheme, ______ is kept constant after sampling.",
+    "a": "Amplitude",
+    "b": "Phase",
+    "c": "Frequency",
+    "d": "Time period",
+    "ans": "a"
+  },
+  {
+    "question": "e expression for bandwidth BW of a PCM system, where v is the number of bits per sample and fm is the modulating frequency, is given by",
+    "a": "BW ≥ vfm",
+    "b": "BW ≤ vfm",
+    "c": "BW ≥ 2 vfm",
+    "d": "BW ≥ 1/2 vfm",
+    "ans": "a"
+  },
+  {
+    "question": "In Differential Pulse Code Modulation techniques, the decoding is performed by",
+    "a": "Accumulator",
+    "b": "Sampler",
+    "c": "PLL",
+    "d": "Quantizer",
+    "ans": "a"
+  },
+  {
+    "question": "The factors that cause quantizing error in delta modulation are",
+    "a": "Slope overload distortion",
+    "b": "Granular noise",
+    "c": "White noise",
+    "d": "Both a and b are correct",
+    "ans": "d"
+  },
+  {
+    "question": "The digital modulation technique in which the step size is varied according to the variation in the slope of the input is called",
+    "a": "Delta modulation",
+    "b": "PCM",
+    "c": "Adaptive delta modulation",
+    "d": "PAM",
+    "ans": "c"
+  },
+  {
+    "question": "DPCM is a technique",
+    "a": "To convert analog signal into digital signal",
+    "b": "Where difference between successive samples of the analog signals are encoded into n-bit data streams",
+    "c": "Where digital codes are the quantized values of the predicted value",
+    "d": "All of the above",
+    "ans": "d"
+  },
+  {
+    "question": "Granular noise occurs when",
+    "a": "Step size is too small",
+    "b": "Step size is too large",
+    "c": "There is interference from the adjacent channel",
+    "d": "Bandwidth is too large",
+    "ans": "b"
+  },
+  {
+    "question": "The digital modulation scheme in which the step size is not fixed is",
+    "a": "Delta modulation",
+    "b": "Adaptive delta modulation",
+    "c": "DPCM",
+    "d": "PCM",
+    "ans": "b"
+  },
+  {
+    "question": "The standard value of intermediate frequency(IF) in double conversion FM receiver is",
+    "a": "455 kHz",
+    "b": "580 kHz",
+    "c": "10.7 MHz",
+    "d": "50 MHz",
+    "ans": "c"
+  },
+  {
+    "question": "In digital transmission, the modulation technique that requires minimum bandwidth is",
+    "a": "Delta modulation",
+    "b": "PCM",
+    "c": "PWM",
+    "d": "PAM",
+    "ans": "a"
+  },
+  {
+    "question": "In PCM, the parameter varied in accordance with the amplitude of the modulating signal is",
+    "a": "Amplitude",
+    "b": "Frequency",
+    "c": "Phase",
+    "d": "None of the above",
+    "ans": "d"
+  },
+  {
+    "question": "Which are the common transmission media used in digital communication system?",
+    "a": "Coaxial cable",
+    "b": "Twisted copper cable",
+    "c": "Radio frequency bands",
+    "d": "All of the mentioned",
+    "ans": "d"
+  },
+  {
+    "question": "In which pulse modulation waveform resembles the original signal",
+    "a": "PCM",
+    "b": "PWM",
+    "c": "PAM",
+    "d": "PPM",
+    "ans": "b"
+  },
+  {
+    "question": "FM is disadvantageous over AM signal because",
+    "a": "much wider channel bandwidth is required",
+    "b": "FM systems are more complex and costlier",
+    "c": "Adjacent channel interference is more",
+    "d": "Both a and b",
+    "ans": "d"
+  },
+  {
+    "question": "In a receiver, noise is usually developed at ________",
+    "a": "Audio stage",
+    "b": "Receiving antenna",
+    "c": "RF stage",
+    "d": "IF stage",
+    "ans": "c"
+  },
+  {
+    "question": "The process of converting the analog signal into discrete sample is called",
+    "a": "Modulation",
+    "b": "Multiplexing",
+    "c": "Sampling",
+    "d": "Quantization",
+    "ans": "d"
+  },
+  {
+    "question": "Granular noise and slope overload occurs in",
+    "a": "PCM",
+    "b": "PWM",
+    "c": "PAM",
+    "d": "Delta modulation",
+    "ans": "d"
+  },
+  {
+    "question": "Aliasing occurs when",
+    "a": "fs>2fm",
+    "b": "fs=2fm",
+    "c": "fs<2fm",
+    "d": "None of the above",
+    "ans": "c"
+  },
+  {
+    "question": "Nyquist rate for sampling theorem is",
+    "a": "fs>fm",
+    "b": "fs=fm",
+    "c": "fs<2fm",
+    "d": "fs>2fm",
+    "ans": "d"
+  },
+  {
+    "question": "Pulses are in fixed length and fixed amplitude in",
+    "a": "PAM",
+    "b": "PPM",
+    "c": "PWM",
+    "d": "PCM",
+    "ans": "c"
+  },
+  {
+    "question": "Analog to digital conversion includes",
+    "a": "Quantization",
+    "b": "None of the mentioned",
+    "c": "Sampling & Quantization",
+    "d": "Sampling",
+    "ans": "a"
+  },
+  {
+    "question": "In PWM signal reception, the Schmitt trigger circuit is used,",
+    "a": "Synchronization is not required between transmitter and receiver",
+    "b": "Amplitude of the carrier pulse is varied",
+    "c": "Instantaneous power at the transmitter is constant",
+    "d": "None of the above",
+    "ans": "b"
+  },
+  {
+    "question": "Types of analog pulse modulation systems are",
+    "a": "Pulse amplitude modulation",
+    "b": "Pulse time modulation",
+    "c": "Frequency modulation",
+    "d": "Both a and b",
+    "ans": "d"
+  }
+]
