@@ -1,11 +1,11 @@
 [{
 "subject":"DBMS",
-"lnk": "https://tinyurl.com/dbmslabcsed",
+"link": "https://tinyurl.com/dbmslabcsed",
 "color": "secondary"    
 },
  {
     "subject":"OS",
-    "lnk": "https://bit.ly/2YAUKHV",
+    "link": "https://bit.ly/2YAUKHV",
      "color": "warning"    
 
 }
