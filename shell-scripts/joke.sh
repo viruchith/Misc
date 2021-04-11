@@ -14,9 +14,9 @@ DATA=`curl -s $UNCENSORED_ENDPT`
 
 TYPE=`echo $DATA | tr '\r\n' ' ' | jq -r ".type" `
 
-ROFL_EMO="\xf0\x9f\xa4\xa3"
+ROFL_EMO="" #"\xf0\x9f\xa4\xa3"
 
-CLOWN_EMO="\xf0\x9f\xa4\xa1"
+CLOWN_EMO="" #"\xf0\x9f\xa4\xa1"
 
 case $TYPE in
 
