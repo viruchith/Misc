@@ -10,18 +10,18 @@ UNCENSORED_ENDPT="https://v2.jokeapi.dev/joke/Any"
 
 # USING UNCENSORED ENDPT !!!!!!
 
-DATA=`curl -s $UNCENSORED_ENDPT`
+DATA=`curl -s $UNCENSORED_ENDPT | tr '\r\n' ' '`
 
-TYPE=`echo $DATA | tr '\r\n' ' ' | jq -r ".type" `
+TYPE=`echo $DATA | jq -r ".type" `
 
-ROFL_EMO="" #"\xf0\x9f\xa4\xa3"
+ROFL_EMO="\xf0\x9f\xa4\xa3"
 
-CLOWN_EMO="" #"\xf0\x9f\xa4\xa1"
+CLOWN_EMO="\xf0\x9f\xa4\xa1"
 
 case $TYPE in
 
 	single)
-		JOKE=`echo $DATA | tr '\r\n' ' ' | jq -r ".joke"`
+		JOKE=`echo $DATA | jq -r ".joke"`
 
 		printf "$CLOWN_EMO \033[1;33m $JOKE $ROFL_EMO \033[0m \n"
 
@@ -29,9 +29,9 @@ case $TYPE in
 
 	twopart)
 
-		SETUP=`echo $DATA | tr '\r\n' ' ' | jq -r ".setup"`
+		SETUP=`echo $DATA | jq -r ".setup"`
 
-		DELIVERY=`echo $DATA | tr '\r\n' ' ' | jq -r ".delivery"`
+		DELIVERY=`echo $DATA | jq -r ".delivery"`
 
 		printf "$CLOWN_EMO \033[0;31m $SETUP \033[0m \n"
 
