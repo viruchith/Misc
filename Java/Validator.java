@@ -22,7 +22,7 @@ class Validator{
     }
     
     private boolean minLength(String value,int length){
-        return (value.length()>=length)?true:false;
+        return (value.length()>=length);
     }
     
     public Validator minLength(int length,String message){
@@ -38,7 +38,7 @@ class Validator{
     }
     
     private boolean maxLength(String value,int length){
-        return (value.length()<=length)?true:false;
+        return (value.length()<=length);
     }
     
     public Validator maxLength(int length,String message){
@@ -52,6 +52,22 @@ class Validator{
     
     public Validator maxLength(int length){
         return this.maxLength(length,"Must not contain more than "+length+" characters !");
+    }
+    
+    private boolean exactLength(String value,int length){
+        return (value.length()==length);
+    }
+    
+    public Validator exactLength(int length,String message){
+        if(!this.exactLength(this.value,length)){
+            this.errorMessages.add(message);
+        }
+        
+        return this;
+    }
+    
+    public Validator exactLength(int length){
+        return this.exactLength(length,"Must contain exactly "+length+" characters !");
     }
     
     
@@ -70,7 +86,7 @@ public class Main
 {
 	public static void main(String[] args) {
 		Validator v = new Validator("Hello");
-		v.minLength(8);
+		v.minLength(8).maxLength(4).exactLength(2);
 		System.out.println(v.getErrorMessages());
 	}
 }
