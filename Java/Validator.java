@@ -155,7 +155,24 @@ class Validator{
         return (this.errorMessages.isEmpty());
     }
     
+    public static boolean matches(String value,String REGEX_PATTERN,int flag){
+        return Pattern.compile(REGEX_PATTERN,flag).matcher(value).matches();
+    }
     
+    public Validator matches(String REGEX_PATTERN,int flag,String message){
+        if(!(this.matches(this.value,REGEX_PATTERN,flag))){
+            this.errorMessages.add(message);
+        }
+        return this;
+    }
+    
+    public Validator matches(String REGEX_PATTERN,int flag){
+        return this.matches(REGEX_PATTERN,flag,"Must match a defined pattern !");
+    }
+    
+    public Validator matches(String REGEX_PATTERN){
+        return this.matches(REGEX_PATTERN,Pattern.CASE_INSENSITIVE);
+    }
     
     public ArrayList<String> getErrorMessages(){
         return this.errorMessages;
@@ -168,7 +185,7 @@ public class Main
 {
 	public static void main(String[] args) {
 		Validator v = new Validator("Hello");
-		v.minLength(8).maxLength(4).exactLength(2).includes(new String[] {"Hello","World"}).excludes(new String[] {"Hello"});
+		v.minLength(8).maxLength(4).exactLength(2).includes(new String[] {"Hello","World"}).excludes(new String[] {"Hello"}).matches("H.*");
 		//String s = "";
 		System.out.println(Validator.isEmpty(""));
 		System.out.println(Validator.isValidEmail("vg@gam.com"));
