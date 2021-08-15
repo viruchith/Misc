@@ -70,10 +70,26 @@ class Validator{
         return this.exactLength(length,"Must contain exactly "+length+" characters !");
     }
     
+    private boolean isNotEmpty(String value){
+        return (!( value==null || value.equals("")));
+    }
+    
+    public Validator isPresent(String value,String message){
+        if(!this.isNotEmpty(value)){
+            this.errorMessages.add(message);
+        }
+        return this;
+    }
+    
+    public Validator isPresent(String value){
+        return this.isPresent(value,"Must not be empty !");
+    }
+    
     
     public boolean isValid(){
         return (this.errorMessages.isEmpty());
     }
+    
     
     public ArrayList<String> getErrorMessages(){
         return this.errorMessages;
