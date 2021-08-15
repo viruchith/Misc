@@ -7,6 +7,9 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
 import java.util.ArrayList;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+
 class Validator{
     
     private String value;
@@ -14,6 +17,8 @@ class Validator{
     private boolean isValid;
     
     private ArrayList<String> errorMessages;
+    
+    private static String EMAIL_REGEX_PATTERN = "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$" ;
     
     Validator(String value){
         this.value = value ;
@@ -70,7 +75,7 @@ class Validator{
         return this.exactLength(length,"Must contain exactly "+length+" characters !");
     }
     
-    private boolean isNotEmpty(String value){
+    private static boolean isNotEmpty(String value){
         return (!( value==null || value.equals("")));
     }
     
@@ -85,10 +90,33 @@ class Validator{
         return this.isPresent(value,"Must not be empty !");
     }
     
+    public static boolean isEmpty(String value){
+        return !(isNotEmpty(value));
+    }
+    
+    public static boolean isValidEmail(String value){
+        return Pattern.compile(EMAIL_REGEX_PATTERN,Pattern.CASE_INSENSITIVE).matcher(value).matches();
+    }
+    
+    public Validator isEmail(String message){
+        if(!this.isValidEmail(this.value)){
+            this.errorMessages.add(message);
+        }
+        return this;
+    }
+    
+    public Validator isEmail(){
+        return this.isEmail("Must be a valid email !");
+    }  
+    
+    public static boolean isAnEmail(String value){
+        return isValidEmail(value);
+    }
     
     public boolean isValid(){
         return (this.errorMessages.isEmpty());
     }
+    
     
     
     public ArrayList<String> getErrorMessages(){
@@ -103,6 +131,10 @@ public class Main
 	public static void main(String[] args) {
 		Validator v = new Validator("Hello");
 		v.minLength(8).maxLength(4).exactLength(2);
+		//String s = "";
+		System.out.println(Validator.isEmpty(""));
+		System.out.println(Validator.isAnEmail("vg@gam.com"));
+		
 		System.out.println(v.getErrorMessages());
 	}
 }
