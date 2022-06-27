@@ -1,3 +1,17 @@
+''' 
+
+1. A* Search l16
+2. Hill Climbing l129
+3. Multi Agent swarm l201
+4. N Queen l274
+5. Adversal search Tic Tac Toe l322
+6. Travelling salesman problem l433
+7. Chatbot l480
+
+'''
+
+
+
 # 1. A * Search
 def aStarAlgo(start_node, stop_node):
          
